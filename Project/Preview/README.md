@@ -33,7 +33,7 @@ En el archivo inicial `README.md` ubicado en el repositorio.
 
 ## Enviar la propuesta
 
-TBD. Github classroom?
+Encargado del grupo debe poner el link del repositorio con el README.md en el Canvas
 
 ## Fecha límite de entrega
 
