@@ -6,7 +6,7 @@ This option only works for Windows 10 and upper.
 
 Probably the easiest way for Windows users.
 
-1. Download Ubuntu WSL software (terminal) from [here](ubuntu.com/wsl)
+1. Download Ubuntu WSL software (terminal) from [here](https://ubuntu.com/wsl)
 
 2. Open the Start Menu and search for "Turn Windows Features On or Off".
 
