@@ -16,4 +16,4 @@ Un repositorio de Github es la mejor carta de presentación de un buen programad
 
 ## Criterio de evaluación
 
-1 punto por cumplir con el uso de cada símbolo del [lenguaje de marcado detallado por Github](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+1 punto por cumplir con el uso de cada símbolo solicitado del [lenguaje de marcado detallado por Github](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
