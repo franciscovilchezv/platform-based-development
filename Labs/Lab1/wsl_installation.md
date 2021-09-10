@@ -8,9 +8,9 @@ Probably the easiest way for Windows users.
 
 1. Download Ubuntu WSL software (terminal) from [here](https://ubuntu.com/wsl)
 
-2. Open the Start Menu and search for "Turn Windows Features On or Off".
+2. Open the Start Menu and search for "Turn Windows Features On or Off". Spanish: "Activar o desactivar las características de Windows" 
 
-3. Activate "Windows Subsystem for Linux". Click Ok and restart the PC.
+3. Activate "Windows Subsystem for Linux". Click Ok and restart the PC. Spanish: "Subsistema de Windows para Linux"
 
 4. Open the Ubuntu terminal. (Installed as Ubuntu in your PC).
 
