@@ -12,7 +12,7 @@ Un repositorio de Github es la mejor carta de presentación de un buen programad
 
 ## Fecha límite de entrega
 
-14 de setiembre a las 11:59pm
+13 de setiembre a las 11:59pm
 
 ## Criterio de evaluación
 
