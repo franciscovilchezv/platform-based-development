@@ -43,5 +43,6 @@ Go to '/', then to 'export/' and then to 'home/'.
 - `rm`: Delete
 - `rm -r`: Delete recursively (used for deleting directories)
 - `man`: Open the manual page for a command
+- `cat`: Concatenate files and show content in the screen
 
 
