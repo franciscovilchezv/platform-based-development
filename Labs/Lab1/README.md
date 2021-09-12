@@ -13,9 +13,9 @@ Tip: While installing VSCode, we recommend to activate the option "Add to PATH"
 
 For Windows 10 or more, we recommend the usage of Linux WSL. Find the installation guide [here](./wsl_installation.md).
 
-Additionally, we will use [Hyper.js](https://hyper.is/) for running the Linux WSL instead of the default terminal included.
+Additionally, we will use [Hyper.js](https://hyper.is/) for running the Linux WSL instead of the default terminal included. (Options)
 
-For other Windows versions, you will nned to go with the [Gitbash](https://www.geeksforgeeks.org/working-on-git-bash/) or [Cygwin](https://cygwin.com/install.html).
+For other Windows versions, you will need to go with the [Gitbash](https://www.geeksforgeeks.org/working-on-git-bash/) or [Cygwin](https://cygwin.com/install.html).
 
 Learn the basics: [Terminal 101](./terminal_101.md)
 
