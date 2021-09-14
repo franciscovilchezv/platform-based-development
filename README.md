@@ -89,6 +89,11 @@ The following topics will be explained in Windows and MacOS
 - Project Structure
 
 ### Lab 3
+
+- Git
+- NodeJS
+- ORM
+
 ### Lecture 4
 ### Lab 4
 ### Lecture 5
