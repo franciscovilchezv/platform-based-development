@@ -73,7 +73,16 @@ The following topics will be explained in Windows and MacOS
       - User Datagram Protocol (UDP)
       - Transmission Control Protocol (TCP)
 
+
+#### Material
+
+- [Slides](./Lectures/Lecture2/Lecture2.pdf)
+
 ### Lab 2
+
+- Web 101
+- Databases
+
 ### Lecture 3
 
 - Design Patterns
