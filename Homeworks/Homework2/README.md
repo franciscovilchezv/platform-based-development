@@ -8,18 +8,24 @@ Por esa razón, en esta tarea cada uno de ustedes se creará su propia página w
 
 Su página web debe de (al menos), tener la siguiente estructura:
 
+![](./hw2.png)
+
+### Rúbrica
+
 ### H1, H2 y Listas (1pto)
 
-- Uso de H1 para el título y H2 para los subtitulos con el estilo correspondiente.
-- Listas de descripción con el estilo correspondiente
+- Uso de H1 centrado para el título y H2 subrayado para los subtitulos.
+- Parrafo con descripción sobre ti.
+- Una lista ordenada con la información que desees.
 
-### Link (1pto)
+### Link y separaciones (1pto)
 
 - Link que manda a su repositorio de github.
+- Separación de secciones por una línea horizontal
 
 ### Imágenes (1pto)
 
-- Incluir una imagen con el estilo correspondiente
+- Incluir una imagen **centrada horizontalmente**
 
 ### Color de fondo (1pto)
 
@@ -31,7 +37,9 @@ Su página web debe de (al menos), tener la siguiente estructura:
 
 Es libre llevar el diseño de su página web más allá de lo solicitado.
 
-Finalmente, publique su página web usando [GitHub pages](../../Labs/Lab2/github_page_101.md) (-50%)
+Finalmente, publique su página web usando [GitHub pages](../../Labs/Lab2/github_page_101.md) (-50% de puntos si no lo publica).
+
+La manera de desarrollar la tarea es libre con tal que cumpla **visualmente** con los requisitos.
 
 ## Submission
 
