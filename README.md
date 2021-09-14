@@ -58,7 +58,13 @@ The following topics will be explained in Windows and MacOS
 ### Lecture 2
 
 - Databases
-  - ...
+  - Motivation
+  - Basic database operations
+  - Database types
+    - SQL
+    - NoSQL
+  - SQL Syntax
+  - ORM 
 - Computer Networks
   - LAN
     - Ethernet protocol
