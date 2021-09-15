@@ -3,14 +3,14 @@ Material for Platform Based Development
 
 ## Agenda
 
-### Lab 0
+### Lab 0 (3/9)
 
 - About me
 - Student's Introduction
 - Course introduction and motivation
 - Basic programming tools (OS, IDE vs. Text Editor, terminal)
 
-### Lecture 1
+### Lecture 1 (7/9)
 
 #### Content
 
@@ -43,7 +43,7 @@ Material for Platform Based Development
 
 - [Slides](./Lectures/Lecture1/Lecture1.pdf)
 
-### Lab 1
+### Lab 1 (10/9)
 
 The following topics will be explained in Windows and MacOS
 
@@ -55,7 +55,7 @@ The following topics will be explained in Windows and MacOS
 - Installation of nvm + node
 - Installation of MySQL + Workbench
 
-### Lecture 2
+### Lecture 2 (14/9)
 
 - Databases
   - Motivation
@@ -64,7 +64,7 @@ The following topics will be explained in Windows and MacOS
     - SQL
     - NoSQL
   - SQL Syntax
-  - ORM 
+  - Introduction to ORM 
 - Computer Networks
   - LAN
     - Ethernet protocol
@@ -78,24 +78,33 @@ The following topics will be explained in Windows and MacOS
 
 - [Slides](./Lectures/Lecture2/Lecture2.pdf)
 
-### Lab 2
+### Lab 2 (17/9)
 
 - Web 101
 - Databases
+- Git
 
-### Lecture 3
+### Lecture 3 (21/9)
 
-- Design Patterns
-- Project Structure
+- Backend + Database
+- Frontend + Backend
+- Full picture (drawn by students)
+- ORM (maybe not)
 
 ### Lab 3
 
-- Git
-- NodeJS
-- ORM
+PC1
 
 ### Lecture 4
+
+- NodeJS
+- Angular
+- ORM & no-ORM (maybe not)
+
 ### Lab 4
+
+ 
+
 ### Lecture 5
 ### Lecture 6
 ### Lab 6
