@@ -204,6 +204,20 @@ CREATE TABLE purchase_order (
 );
 ```
 
+If you want to have more than one primary key, you need to separate them by comma.
+
+
+```
+CREATE TABLE purchase_order (
+  purchase_order_id int,
+  product_id int,
+  quantity int,
+  total_price float,
+  PRIMARY KEY (purchase_order, product_id),
+  FOREIGN KEY (product_id) REFERENCES product(product_id)
+);
+```
+
 ### Autoincrement
 
 You can add `AUTO_INCREMENT` to a value so it automatically will insert the next proper value during an insert. It is commonly used in primary keys.
