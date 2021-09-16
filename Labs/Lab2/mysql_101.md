@@ -191,7 +191,18 @@ CREATE TABLE purchase_order (
 );
 ```
 
-You can make the foering key also a primary key by applying the same command `PRIMARY KEY`.
+You can make the foering key also a primary key by additionally applying the same command `PRIMARY KEY`.
+
+```
+CREATE TABLE purchase_order (
+  purchase_order_id int,
+  product_id int,
+  quantity int,
+  total_price float,
+  PRIMARY KEY (product_id),
+  FOREIGN KEY (product_id) REFERENCES product(product_id)
+);
+```
 
 ### Autoincrement
 
