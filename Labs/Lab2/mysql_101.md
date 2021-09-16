@@ -191,6 +191,8 @@ CREATE TABLE purchase_order (
 );
 ```
 
+You can make the foering key also a primary key by applying the same command `PRIMARY KEY`.
+
 ### Autoincrement
 
 You can add `AUTO_INCREMENT` to a value so it automatically will insert the next proper value during an insert. It is commonly used in primary keys.
