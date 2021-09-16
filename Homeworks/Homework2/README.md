@@ -157,6 +157,8 @@ Incluya todos sus comandos en un archivo llamado `university.sql`. Incluya los c
 2. Crear las tablas
 3. Insertar los datos
 
+Suba el archivo `university.sql` a la tarea 2 de la plataforma del curso.
+
 ### Grading criteria
 
 Vamos a probar sus comandos en el orden que usted los mandó. Si uno de sus comandos falla, pararemos la correción en ese punto 😰. En otras palabras, el resto de comando no recibirán ningún punto.
