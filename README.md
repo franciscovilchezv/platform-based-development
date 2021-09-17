@@ -81,11 +81,13 @@ The following topics will be explained in Windows and MacOS
 ### Lab 2 (17/9)
 
 - Web 101
-- Databases
-- Git
+- Databases (CREATE DATABASE, TABLE, INSERT, UPDATE, DELETE)
+- Git started (pending push, + gh usage)
 
 ### Lecture 3 (21/9)
 
+- Databases (REVIEW PREVIEW, + ALTER & CONTRAINTS)
+- Git (gh)
 
 ### Lab 3
 
