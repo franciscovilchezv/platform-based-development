@@ -73,7 +73,7 @@ VALUES (1, 'iPhone 13', NULL, 699.99);
 [Syntax](https://www.w3schools.com/sql/sql_select.asp)
 
 ```
-SELECT  product_id, product_name, stock_ price
+SELECT  product_id, product_name, stock, price
 FROM    product;
 ```
 
