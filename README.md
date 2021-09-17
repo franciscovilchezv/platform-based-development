@@ -87,6 +87,7 @@ The following topics will be explained in Windows and MacOS
 ### Lecture 3 (21/9)
 
 - Backend + Database
+- HTTP
 - Frontend + Backend
 - Full picture (drawn by students)
 - ORM (maybe not)
