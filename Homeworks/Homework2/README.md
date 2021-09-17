@@ -167,4 +167,4 @@ Nuevamente le recordamos que no se olvide de incluir el comando para crear la ba
 
 ## Fecha límite
 
-Entregar a más tardar el 21 de Setiembre a las 11:59pm
+Entregar a más tardar el 20 de Setiembre a las 11:59pm
