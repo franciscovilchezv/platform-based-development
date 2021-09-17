@@ -86,11 +86,6 @@ The following topics will be explained in Windows and MacOS
 
 ### Lecture 3 (21/9)
 
-- Backend + Database
-- HTTP
-- Frontend + Backend
-- Full picture (drawn by students)
-- ORM (maybe not)
 
 ### Lab 3
 
@@ -98,15 +93,19 @@ PC1
 
 ### Lecture 4
 
-- NodeJS
-- Angular
-- ORM & no-ORM (maybe not)
+- Backend + Database
+- HTTP
+- Frontend + Backend
+- Full picture (drawn by students)
+- NodeJS (+ a framework)
 
 ### Lab 4
 
- 
-
 ### Lecture 5
+
+- Angular
+- ORM & no-ORM (maybe not)
+
 ### Lecture 6
 ### Lab 6
 ### Lecture 7
