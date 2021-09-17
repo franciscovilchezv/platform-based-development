@@ -86,8 +86,14 @@ The following topics will be explained in Windows and MacOS
 
 ### Lecture 3 (21/9)
 
+Continuation of Lab 2:
+
 - Databases (REVIEW PREVIEW, + ALTER & CONTRAINTS)
 - Git (gh)
+
+#### Material
+
+- [Guide](./Lectures/Lecture3/README.md)
 
 ### Lab 3
 
