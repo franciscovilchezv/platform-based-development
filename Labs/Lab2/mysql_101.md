@@ -82,7 +82,7 @@ FROM    product;
 You can also filter values useing a [where clause](https://www.w3schools.com/sql/sql_where.asp)
 
 ```
-SELECT  product_id, product_name, stock_ price
+SELECT  product_id, product_name, stock, price
 FROM    product
 WHERE   product_id = 1;
 ```
