@@ -65,7 +65,7 @@ If you don't want to insert a value, you can use the keywork `NULL`
 
 ```
 INSERT INTO product (product_id, product_name, stock, price)
-VALUES (1, 'iPhone 13', NULL, 699.99);
+VALUES (2, 'iPhone 13', NULL, 699.99);
 ```
 
 ### Select (view) data
