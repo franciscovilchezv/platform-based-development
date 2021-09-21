@@ -55,6 +55,8 @@ The following topics will be explained in Windows and MacOS
 - Installation of nvm + node
 - Installation of MySQL + Workbench
 
+- [Homework 1](./Homeworks/Homework1/README.md)
+
 ### Lecture 2 (14/9)
 
 - Databases
@@ -73,7 +75,6 @@ The following topics will be explained in Windows and MacOS
       - User Datagram Protocol (UDP)
       - Transmission Control Protocol (TCP)
 
-
 #### Material
 
 - [Slides](./Lectures/Lecture2/Lecture2.pdf)
@@ -83,6 +84,8 @@ The following topics will be explained in Windows and MacOS
 - Web 101
 - Databases (CREATE DATABASE, TABLE, INSERT, UPDATE, DELETE)
 - Git started (pending push, + gh usage)
+
+- [Homework 2 - Parte 1](./Homeworks/Homework2/hw2-part1.md)
 
 ### Lecture 3 (21/9)
 
@@ -94,10 +97,11 @@ Continuation of Lab 2:
 #### Material
 
 - [Guide](./Lectures/Lecture3/README.md)
+- [Homework 2 - Parte 2](./Homeworks/Homework2/hw2-part2.md)
 
 ### Lab 3
 
-PC1
+- [PC1](./Quizzes/PC1/README.md)
 
 ### Lecture 4
 
@@ -108,6 +112,8 @@ PC1
 - NodeJS (+ a framework)
 
 ### Lab 4
+
+- Accessing DB
 
 ### Lecture 5
 
@@ -123,6 +129,9 @@ PC1
 
 ### Lab 7
 ### Lecture 8
+
+- Presentación Proyecto - Parte Web
+
 ### Lab 8
 ### Lecture 9
 ### Lab 9
