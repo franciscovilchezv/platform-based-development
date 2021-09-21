@@ -2,6 +2,6 @@
 
 - [Homework 2 - parte 1 (5 credits)](./hw2-part1.md)
 
-- Homework 2 - parte 2 (5 credits) **aun no disponible**
+- [Homework 2 - parte 2 (5 credits)](./hw2-part1.md)
 
 
