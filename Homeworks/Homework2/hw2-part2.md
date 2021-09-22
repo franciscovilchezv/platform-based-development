@@ -21,6 +21,8 @@ mysql> show tables;
 
 ### Tabla cursos (1pto)
 
+`professor_id` es un foerign key de la tabla `professor`.
+
 ```
 mysql> desc course;
 +---------------+--------------+------+-----+---------+----------------+
@@ -71,7 +73,7 @@ mysql> desc semester;
 
 ### Tabla semester_course (1pto)
 
-- Los primary key `semester_id` y `course_id` son foreigb keys de las tablas `semester` y `course` respectivamente.
+- Los primary key `semester_id` y `course_id` son foreing keys de las tablas `semester` y `course` respectivamente. (Notar que son foreign keys de las tablas `semester` y `course` respectivamente, pero tambien son primary keys en la tabla `semester_course`).
 
 ```
 mysql> desc semester_course;
