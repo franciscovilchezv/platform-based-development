@@ -22,9 +22,3 @@ You can check it installed correctly by doing:
 node -v
 npm -v
 ```
-
-## Python 3
-
-Python 3 is included by default in Ubuntu WSL. You can test it by running:
-
-`python3`
