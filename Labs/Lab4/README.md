@@ -1,32 +1,7 @@
 # Lab 4
 
-## Node
+## Before the lab
 
-We are going to use `nmv` to manage the different versions of NodeJS and NPM.
+Make sure to have Node installed in your computer using the following [guide](./nvm_setup.md).
 
-```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-```
-
-Close and open your terminal.
-
-We install the latest stableversion of Node:
-
-```
-nvm install --lts
-```
-
-You can check it installed correctly by doing:
-
-```
-node -v
-npm -v
-```
-
-## Angular Cli
-
-Install the Angular cli using `npm`
-
-```
-npm install -g @angular/cli
-```
+Also, make sure to review the syntax of Javascript and the following [guide](./node_101.md) for NodeJS basics.
