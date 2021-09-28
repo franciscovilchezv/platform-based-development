@@ -91,7 +91,7 @@ The following topics will be explained in Windows and MacOS
 
 Continuation of Lab 2:
 
-- Databases (REVIEW PREVIEW, + ALTER & CONTRAINTS)
+- Databases (Review preview's lab commands, and explain ALTER TABLE & CONTRAINTS)
 - Git (gh)
 
 #### Material
@@ -105,15 +105,16 @@ Continuation of Lab 2:
 
 ### Lecture 4
 
-- Backend + Database
+- Backend + Databasea
 - HTTP
 - Frontend + Backend
-- Full picture (drawn by students)
-- NodeJS (+ a framework)
+- Full picture
+- NodeJS, Express
+- Angular, Typescript & Bootstrap
 
 ### Lab 4
 
-- Accessing DB
+- Accessing DB from NodeJS
 
 ### Lecture 5
 
