@@ -22,3 +22,11 @@ You can check it installed correctly by doing:
 node -v
 npm -v
 ```
+
+## Angular Cli
+
+Install the Angular cli using `npm`
+
+```
+npm install -g @angular/cli
+```
