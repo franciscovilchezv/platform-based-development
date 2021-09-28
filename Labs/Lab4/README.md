@@ -1,4 +1,4 @@
-# Lab 3
+# Lab 4
 
 ## Node
 
@@ -23,8 +23,10 @@ node -v
 npm -v
 ```
 
-## Python 3
+## Angular Cli
 
-Python 3 is included by default in Ubuntu WSL. You can test it by running:
+Install the Angular cli using `npm`
 
-`python3`
+```
+npm install -g @angular/cli
+```
