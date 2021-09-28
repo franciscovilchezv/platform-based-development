@@ -112,6 +112,10 @@ Continuation of Lab 2:
 - NodeJS, Express
 - Angular, Typescript & Bootstrap
 
+#### Material
+
+- [Slides](./Lectures/Lecture4/Lecture4.pdf)
+
 ### Lab 4
 
 - Accessing DB from NodeJS
