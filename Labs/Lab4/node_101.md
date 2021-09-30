@@ -1,6 +1,6 @@
 # NodeJS 101
 
-Node is a "tool" (not exactly), that allows you to execute javascript code outside the browser. That way, you can code programs in nodejs and run them in your computer using the `node` tool.
+Node is a "tool" (technically a Javascript Runtime Environment), that allows you to execute javascript code outside the browser. That way, you can code programs in NodeJS and run them in your computer using the `node` tool.
 
 ## Getting started
 
@@ -10,7 +10,7 @@ Let's begin by creating a program that prints "Hello World".
 
 - Open your terminal
 
-- Create a directory so we can put all our js things in here.
+- Create a directory so we can put all our `.js` in there.
 
 ```
 mkdir nodejs101
@@ -47,80 +47,140 @@ Review variables from guide
 
 Review functions from guide
 
+### npm
+
+Node has a [broad variety of libraries (also known as modules)](https://www.npmjs.com/) already created that you can just import and start using in your project. 
+
+`npm` (Node package manager) is the tool used to manage the dependencies of your project. In other words, it is the tool that will be in charged of downloading the libraries you use in your project, and record that dependency in a file called `package.json`
+
+The syntax for installing a dependency is the next one:
+
+`npm install <name_of_the_library> --save`
+
+The `--save` option stores the dependency in the `package.json`. That way, if another developer downloads your project, it can know which libraries it is using by looking at the `package.json` file.
+
+The library downloaded is store in your project in a directory called `node_modules`
+
+Additionally, `package.json` stores additional information about your project, like the name, author, github repo, etc.
+
+In order to initialize your `package.json` you can use the following command:
+
+`npm init`
+
+#### Installing our first module
+
+Let's use one called [uuid](https://www.npmjs.com/package/uuid).
+
+`npm install uuid --save`
+
+You can see it now appears in your `package.json` and in `node_modules` with some of its own dependencies.
+
 #### Modules
 
 You can split your code in multiple `.js` files and import them.
 
-##### Using module.exports y require
+In order to start importing modules, we need to include `"type": "module"` in our `package.json`
 
-We use `module.exports` to make a function in your `.js` file, available to other files. For example:
+##### Importing and exporting modules
+
+Let's create our own node module in order to understand what is going on.
+
+Let's create a couple of functions in a new file `my_functions.js` and export them, so they are avaiable to be used by other files.
 
 ```
-// test.js
-function test(){
-  console.log("This is the function in test.js");
+// my_functions.js
+function hello_world(){
+  console.log("This is the function in my_functions.js called hello_world");
 }
 
-module.exports = test;
+function bye_world(){
+  console.log("This is the function in my_functions.js called bye_world");
+}
+```
+
+If we want to make that function available to other files, we add `export` at the beginning of the function.
+
+```
+// my_functions.js
+export function hello_world(){
+  console.log("This is the function in my_functions.js called hello_world");
+}
+
+export function bye_world(){
+  console.log("This is the function in my_functions.js called bye_world");
+}
 ```
 
 ```
 // index.js
-var test = require('./test.js');
-test();
+import { hello_world, bye_world } from './my_functions.js';
+
+hello_world();
+bye_world();
 ```
 
-#### Using export and import
+```
+Output:
 
-*Note: We need to include `"type": "module"` in our `package.json` in order to use this type of import.
+This is the function in my_functions.js called hello_world
+This is the function in my_functions.js called bye_world
+```
 
-We can also use `export` to export functions and other variables, and `import` to import it:
+#### Import the `uuid` module
+
+We can follow the example provided by the [documentation of `uuid`](https://www.npmjs.com/package/uuid)
 
 ```
-// test.js
-function test(){
-  console.log("This is the function in test.js");
+import { v4 as v4 } from 'uuid';
+
+v4();
+```
+
+You can provide an alias to the function imported as the do in their example
+
+```
+import { v4 as uuidv4 } from 'uuid';
+
+uuidv4();
+```
+
+Notice that they are not typing `.js` at the end of the import. The short explanation is that they are referencing the folder instead of the `.js` file. The `import` statement will find the `index.js` file in that directory and use that as the imported file. They can also specify the file used for the imports in their `package.json`.
+
+##### An old syntax for importing modules
+
+In previous versions of NodeJS, modules used to be imported with the following syntax, for example, the `mysql` module:
+
+```
+var mysql = require('mysql');
+
+console.log(mysql);
+```
+
+Which returned an object with all the functions the module `mysql` had.
+
+```
+Output:
+
+{
+  createConnection: [Function: createConnection],
+  createPool: [Function: createPool],
+  createPoolCluster: [Function: createPoolCluster],
+  createQuery: [Function: createQuery],
+  escape: [Function: escape],
+  escapeId: [Function: escapeId],
+  format: [Function: format],
+  raw: [Function: raw]
 }
-
-export test;
 ```
 
+Some of the npm modules still provide that syntax as an example. However, we will need to import it using `import` instead of `require`. Our import will look like:
+
 ```
-// index.js
-import { test } from './test.js';
-test();
+import mysql from 'mysql';
+
+console.log(mysql);
 ```
 
-
-
-You can use it to export variables, constants, objects, functions, etc...
-
-## Using npm (node modules)
-
-Node has a repository of modules (libraries) that you can use. That will help you to reuse functionalities created by other in your own program.
-
-The software for managing those libraries is called `npm` (Node package manager)
-
-Dependencies in nodejs are stored in your current directory (in your project directory), inside a folder called `node_modules`. The list of packages installed is stored in `package.json`.
-
-### Initialize the project
-
-First thing we must do is tell node that the project will use npm.
-
-`npm init`
-
-This will create a initial `package.json` which basic information of the project
-
-### Using a npm library
-
-[npmjs](https://www.npmjs.com/) allows you to search any npm package. Let's use one called [uuid](https://www.npmjs.com/package/uuid).
-
-`npm install uuid`
-
-(we can add `--save` if we want to add it to our package.json)
-
-`npm install uuid --save`
-
-
+Which will return the same output as before.
 
 
