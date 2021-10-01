@@ -19,6 +19,12 @@ Requisitos: [Creación de una API en NodeJS y comunicación con una base de dato
 
 Requisitos: [Creación de una applicación web y comunicación con el backend](./hw3-part2.md)
 
+## Fecha de entrega
+
+Parte 1: Miércoles 6 de octubre 11:59pm.
+
+Parte 2: Lunes 11 de octubre 11:59pm.
+
 ## Entregables
 
 Crear un único repositorio con el siguiente contenido:
@@ -33,12 +39,6 @@ Crear un único repositorio con el siguiente contenido:
 - Un directorio llamado `frontend` con su Web Application que consume la API.
 
 Subir a la plataforma del curso el link de su repositorio.
-
-## Fecha de entrega
-
-Parte 1: Miércoles 6 de octubre 11:59pm.
-
-Parte 2: Lunes 11 de octubre 11:59pm.
 
 ## Calificación
 
