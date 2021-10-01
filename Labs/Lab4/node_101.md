@@ -183,4 +183,3 @@ console.log(mysql);
 
 Which will return the same output as before.
 
-

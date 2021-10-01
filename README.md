@@ -119,11 +119,13 @@ Continuation of Lab 2:
 ### Lab 4
 
 - Accessing DB from NodeJS
+- Create Angular project & call backend
 
 ### Lecture 5
 
-- Angular
-- ORM & no-ORM (maybe not)
+- Review technologies in stack
+- Navegation Angular
+- CRUD Angular + NodeJS
 
 ### Lecture 6
 ### Lab 6
