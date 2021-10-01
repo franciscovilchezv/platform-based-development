@@ -119,24 +119,33 @@ Continuation of Lab 2:
 ### Lab 4
 
 - Accessing DB from NodeJS
-- Create Angular project & call backend
+- Creation of an API with NodeJS
+
+#### Material
+
+- [Homework 3 - Parte 1](./Homeworks/Homework3)
 
 ### Lecture 5
 
 - Review technologies in stack
+- Create Angular project & call backend
+- HTTP methods
+
+#### Material
+
+- [Homework 3 - Parte 2](./Homeworks/Homework3)
+
+### Lecture 6
+
 - Navegation Angular
 - CRUD Angular + NodeJS
 
-### Lecture 6
 ### Lab 6
 ### Lecture 7
-
-- HTTP
-<!-- https://www.youtube.com/watch?v=guvsH5OFizE&list=PLH2l6uzC4UEW0s7-KewFLBC1D0l6XRfye&index=31 -->
-
 ### Lab 7
-### Lecture 8
 
+
+### Lecture 8
 - Presentación Proyecto - Parte Web
 
 ### Lab 8
