@@ -1,6 +1,6 @@
 ## Node
 
-We are going to use `nmv` to manage the different versions of NodeJS and NPM.
+We are going to use `nvm` to manage the different versions of NodeJS and NPM.
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
