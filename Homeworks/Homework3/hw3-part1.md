@@ -4,4 +4,4 @@ Cree un archivo `.sql` con los comandos necesarios para crear la base de datos q
 
 ## Parte 2 (2 puntos)
 
-Cree una API `GET /url` que muestre la información de la BD.
+Cree una API en NodeJS `GET /menu` que muestre la información de la BD.
