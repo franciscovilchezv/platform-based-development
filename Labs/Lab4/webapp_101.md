@@ -84,7 +84,7 @@ A brief description of the some of the files is explained below:
 
 Let's start by clearing the content of `app.component.html` and just include a simple title.
 
-`<h1>My Chess Club</h1>
+`<h1>My Chess Club</h1>`
 
 Now let's create a table where we will display all the chess members. But let's do it more organized, let's create a component just for that table
 
