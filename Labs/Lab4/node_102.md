@@ -88,10 +88,9 @@ function getMembers(req, res){
     // Step 3: Process the result inside the callback
     res.send(results);
 
+    // Step 4: Close the connection
+    connection.end();
   });
-
-  // Step 4: Close the connection
-  connection.end();
 
 }
 ```
