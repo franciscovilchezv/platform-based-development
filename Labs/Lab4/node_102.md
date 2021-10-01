@@ -95,3 +95,13 @@ function getMembers(req, res){
 
 }
 ```
+
+## ER_NOT_SUPPORTED_AUTH_MODE
+
+If you get the error ER_NOT_SUPPORTED_AUTH_MODE, run the following command in your `mysql` instance.
+
+```
+mysql> ALTER USER 'youruser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'youpassword';
+
+mysql> FLUSH PRIVILEGES;
+```
