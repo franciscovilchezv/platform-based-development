@@ -176,9 +176,9 @@ Output:
 Some of the npm modules still provide that syntax as an example. However, we will need to import it using `import` instead of `require`. Our import will look like:
 
 ```
-import mysql from 'mysql';
+import * as mysql_library from 'mysql';
 
-console.log(mysql);
+console.log(mysql_library);
 ```
 
 Which will return the same output as before.
