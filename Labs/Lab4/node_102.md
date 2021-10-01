@@ -78,10 +78,10 @@ function getMembers(req, res){
 
   // Step 2: Send the query
   const myQuery = " SELECT member_id, fullname, " +
-                " birthday, ranking, " +
-                " gender, email, created_date, " +
-                " modified_date " +
-                " FROM member; ";
+                  " birthday, ranking, " +
+                  " gender, email, created_date, " +
+                  " modified_date " +
+                  " FROM member; ";
 
   connection.query(myQuery, function (error, results, fields) {
     
