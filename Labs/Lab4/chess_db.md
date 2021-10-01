@@ -37,3 +37,10 @@ INSERT INTO member (fullname, birthday, ranking, gender, email, created_date, mo
 
 INSERT INTO member (fullname, birthday, ranking, gender, email, created_date, modified_date) VALUES ('Judith Polgar', '1976-07-23', 2675, 'Female', 'judith@polgar.com', now(), now());
 ```
+
+## Show data
+
+```
+SELECT member_id, fullname, birthday, ranking, gender, email, created_date, modified_date
+FROM member;
+```
