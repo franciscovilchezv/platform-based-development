@@ -37,6 +37,7 @@ Subir a la plataforma del curso el link de su repositorio.
 ## Fecha de entrega
 
 Parte 1: Miércoles 6 de octubre 11:59pm.
+
 Parte 2: Lunes 11 de octubre 11:59pm.
 
 ## Calificación
