@@ -9,25 +9,35 @@ La información que desea guardar es:
 
 Incluir campos de auditoría (created_date y modified_date)
 
-## Parte 1 (1 punto)
+## Requerimientos
 
-Cree un archivo `.sql` con los comandos necesarios para crear la base de datos que necesita para cubrir dichos requerimientos. Incluir inserts con datos de prueba
+### Parte 1
 
-## Parte 2 (2 puntos)
+Requisitos: [Creación de una API en NodeJS y comunicación con una base de datos MySQL.](./hw3-part1.md)
 
-Cree una API `GET /url` que muestre la información de la BD.
+### Parte 2
 
-## Parte 3 (2 puntos)
-
-Cree una Web Application utilizando Angular que llame a la API `GET /url` y muestre la información en una tabla!
+Requisitos: [Creación de una applicación web y comunicación con el backend](./hw3-part2.md)
 
 ## Entregables
 
-Subir a la plataforma del curso el link de su repositorio, el cual debe de contener:
+Crear un único repositorio con el siguiente contenido:
+
+### Incluir para la parte 1
 
 - Su archivo `.sql` que cree la base de datos
 - Un directorio llamado `backend` con su API.
+
+### Incluir para la parte 2
+
 - Un directorio llamado `frontend` con su Web Application que consume la API.
+
+Subir a la plataforma del curso el link de su repositorio.
+
+## Fecha de entrega
+
+Parte 1: Miércoles 6 de octubre 11:59pm.
+Parte 2: Lunes 11 de octubre 11:59pm.
 
 ## Calificación
 
@@ -36,7 +46,3 @@ Para la corrección se realizará los siguiente procedimientos:
 1. Se ejecutará los comandos de su archivo `.sql`
 2. Se entrará a su backend, se ejecutará `npm install` y luego `node index.js` para ejecutar el backend.
 3. Se entrará al frontend. Se ejecutará `npm install` y luego `ng serve --open`. Su página web deberá mostrar los platos del menú
-
-## Fecha de entrega
-
-Jueves 7 de octubre 11:59pm.
