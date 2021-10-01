@@ -156,7 +156,7 @@ var mysql = require('mysql');
 console.log(mysql);
 ```
 
-Which returned an object with all the functions the module `mysql` had.
+Which returned an object with all the functions the module `mysql` had. In order to use this old syntax, we need to remove the `"type": "module"` in our `package.json`
 
 ```
 Output:
