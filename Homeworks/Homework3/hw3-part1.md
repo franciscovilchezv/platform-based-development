@@ -1,6 +1,9 @@
 ## Parte 1 (1 punto)
 
-Cree un archivo `.sql` con los comandos necesarios para crear la base de datos que necesita para cubrir los requerimientos del dueño del restaurante. Incluir inserts con datos de prueba
+Cree un archivo `.sql` con los comandos necesarios para crear la base de datos que necesita para cubrir los requerimientos del dueño del restaurante. Incluir inserts con datos de prueba.
+
+- Base de datos: `restaurant`
+- Tabla para guardar los platos: `menu`
 
 ## Parte 2 (2 puntos)
 
