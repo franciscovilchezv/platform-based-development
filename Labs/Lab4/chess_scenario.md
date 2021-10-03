@@ -8,7 +8,7 @@ Adicionalmente, la aparición de series como "The Queen's Gambit" originó el in
 
 ## UTEC
 
-La popularidad del ajedrez ha llegado a la UTEC. Muchos alumnos han deseado inscribirse al club de ajedrez de la universidad. El presidente del club, Magnus Carlsen, empezó utilizando un Excel para guardar la lista de los integrantes del club, Sin embargo, al darse cuenta de la gran cantidad de nuevos miembros, ha decido obtar por la creación de una base de datos para almacenar la información de los integrantes del club.
+La popularidad del ajedrez ha llegado a la UTEC. Muchos alumnos han deseado inscribirse al club de ajedrez de la universidad. El presidente del club, Magnus Carlsen, empezó utilizando un Excel para guardar la lista de los integrantes del club. Sin embargo, al darse cuenta de la gran cantidad de nuevos miembros, ha decido obtar por la creación de una base de datos para almacenar la información de los integrantes del club.
 
 La información que desea almacenar de cada integrante es la siguiente:
 
