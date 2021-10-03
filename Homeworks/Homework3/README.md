@@ -31,7 +31,7 @@ Crear un único repositorio con el siguiente contenido:
 
 ### Incluir para la parte 1
 
-- Su archivo `.sql` que cree la base de datos
+- Su archivo `restaurant.sql` que cree la base de datos
 - Un directorio llamado `backend` con su API.
 
 ### Incluir para la parte 2
@@ -44,6 +44,6 @@ Subir a la plataforma del curso el link de su repositorio.
 
 Para la corrección se realizará los siguiente procedimientos:
 
-1. Se ejecutará los comandos de su archivo `.sql`
+1. Se ejecutará los comandos de su archivo `restaurant.sql`
 2. Se entrará a su backend, se ejecutará `npm install` y luego `node index.js` para ejecutar el backend.
 3. Se entrará al frontend. Se ejecutará `npm install` y luego `ng serve --open`. Su página web deberá mostrar los platos del menú
