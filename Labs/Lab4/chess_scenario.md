@@ -18,6 +18,6 @@ La información que desea almacenar de cada integrante es la siguiente:
 - Género (opcional).
 - Email
 
-*Incluir campos de auditoría (created_date y modified_date)*
+*Incluir campos de auditoría (created_date y modified_date) y un `id`*
 
 Ayúdelo a crear dicha base de datos.
