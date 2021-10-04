@@ -149,8 +149,6 @@ New theory topic:
 
 ### Lecture 6
 
-- Navegation Angular
-
 Lab content:
 - CRUD NodeJS
 - CRUD Angular
