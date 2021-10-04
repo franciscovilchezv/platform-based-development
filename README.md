@@ -38,7 +38,6 @@ Material for Platform Based Development
   - API (More on Lecture 6)
 - Backend frameworks
 
-
 #### Material
 
 - [Slides](./Lectures/Lecture1/Lecture1.pdf)
@@ -55,7 +54,10 @@ The following topics will be explained in Windows and MacOS
 - Installation of nvm + node
 - Installation of MySQL + Workbench
 
+#### Material
+
 - [Homework 1](./Homeworks/Homework1/README.md)
+- [Guide](./Labs/Lab1)
 
 ### Lecture 2 (14/9)
 
@@ -85,7 +87,10 @@ The following topics will be explained in Windows and MacOS
 - Databases (CREATE DATABASE, TABLE, INSERT, UPDATE, DELETE)
 - Git started (pending push, + gh usage)
 
+#### Material
+
 - [Homework 2 - Parte 1](./Homeworks/Homework2/hw2-part1.md)
+- [Guide](./Labs/Lab2)
 
 ### Lecture 3 (21/9)
 
@@ -110,7 +115,6 @@ Continuation of Lab 2:
 - Frontend + Backend
 - Full picture
 - NodeJS, Express
-- Angular, Typescript & Bootstrap
 
 #### Material
 
@@ -124,24 +128,40 @@ Continuation of Lab 2:
 #### Material
 
 - [Homework 3 - Parte 1](./Homeworks/Homework3)
+- [Guide](./Labs/Lab4)
 
 ### Lecture 5
 
-- Review technologies in stack
+- Review technologies in stack (Angular, Typescript & Bootstrap)
+
+Continuation of Lab 4:
 - Create Angular project & call backend
+
+New theory topic:
 - HTTP methods
+- Introduction to Angular routes
 
 #### Material
 
 - [Homework 3 - Parte 2](./Homeworks/Homework3)
+- [Guide](./Lectures/Lecture5)
+- [Slides](./Lectures/Lecture5.pdf)
 
 ### Lecture 6
 
 - Navegation Angular
-- CRUD Angular + NodeJS
+
+Lab content:
+- CRUD NodeJS
+- CRUD Angular
+- SQL Queries (Joins)
 
 ### Lab 6
+
+
+
 ### Lecture 7
+
 ### Lab 7
 
 
