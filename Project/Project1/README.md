@@ -33,7 +33,7 @@ Se le sugiere a los integrantes del grupo mostrar su cámara durante la presenta
 
 Código de vestimenta: Libre
 
-## Orden de Presentación
+## Orden de Presentación (TBD)
 
 1. Grupo de la suerte (777)
 2. Grupo 4
