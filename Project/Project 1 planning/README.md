@@ -1,6 +1,6 @@
 # Project 1 - planeamiento
 
-Detalle:
+Se le pide detallar la siguiente información:
 - Qué información se guardará en su BD.
 - Qué realizará cada uno de sus servicios webs.
 - Qué realizará cada una de sus vistas de Angular.
