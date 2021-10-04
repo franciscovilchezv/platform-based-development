@@ -9,6 +9,10 @@ Con el fin que pueda cumplir con dichos requisitos, se le pide detallar la sigui
 
 La información que usted provea podrá ser cambiada durante el desarrollo de su proyecto en caso sea necesario.
 
+Si tiene dudas sobre qué servicios webs crear, vistas web utilizar o información guardar en la BD para su proyecto, siéntase libre de contactarme que con gusto los ayudaré:
+
+`fvilchez arroba utec punto edu punto pe`
+
 ## Entregable
 
 Incluya esa información en un Issue de GitHub creado en el repositorio del trabajo grupal, con el título "Web App - Planning".
