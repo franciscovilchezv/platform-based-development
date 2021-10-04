@@ -6,9 +6,9 @@ Creación de una aplicación web.
 
 ## Requisitos
 
-Su proyecto debe al menos hacer uso de los siguientes requisitos:
+Su proyecto 1 debe al menos hacer uso de los siguientes requisitos:
 
-- Uso de una base de datos MySQL para guardar información necesaria de la App.
+- Uso de una base de datos MySQL para guardar información necesaria del proyecto.
 - Desarrolo de una API en NodeJS usando Express framework.
 - Creación de una Web Application usando Angular.
 
