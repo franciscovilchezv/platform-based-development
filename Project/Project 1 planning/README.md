@@ -1,9 +1,13 @@
 # Project 1 - planeamiento
 
-Se le pide detallar la siguiente información:
+Se ha detallado los requisitos de su proyecto en el siguiente [link](https://github.com/franciscovilchezv/platform-based-development/tree/main/Project/Project1#requisitos)
+
+Con el fin que pueda cumplir con dichos requisitos, se le pide detallar la siguiente información:
 - Qué información se guardará en su BD.
 - Qué realizará cada uno de sus servicios webs.
 - Qué realizará cada una de sus vistas de Angular.
+
+La información que usted provea podrá ser cambiada durante el desarrollo de su proyecto en caso sea necesario.
 
 ## Entregable
 
