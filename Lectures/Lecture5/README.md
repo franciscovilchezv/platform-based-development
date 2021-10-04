@@ -8,3 +8,4 @@ Additionally, we will introduce a few concepts:
 
 - [Lecture](./Lecture5.pdf)
 
+We will assign the second part of homework 3
