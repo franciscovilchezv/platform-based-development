@@ -187,3 +187,4 @@ Lab content:
 ### Lecture 15
 ### Lab 15
 ### Lecture 16
+- Presentación Proyecto - Parte móvil
