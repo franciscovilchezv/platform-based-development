@@ -169,7 +169,7 @@ export class MembersTableComponent implements OnInit {
 }
 ```
 
-In our example, we are declaring a variable `members` which, as we said, is available in our `members-table` component!. Attributes do not need to include `var` at the begining. One of the ways to reference a variable in the HTML is using the syntax `{{members}}`. It will show we have an array with two objects.
+In our example, we are declaring a variable `members` which, as we said, is available in our `members-table` component!. Attributes do not need to include `var` at the begining. One of the ways to reference a variable in the HTML is using the syntax `{{members}}`. It will show we have an array with two objects. We can use the pipe to display the data in text format with the sysntax `{{members | json}}`. We will learn more about pipes in the next guides, but for now, you can use that syntax to display the content of your objects.
 
 Now we will learn our first Angular directive. It is called `*ngFor`.  It allows us to iterate an array in the HTML.
 
