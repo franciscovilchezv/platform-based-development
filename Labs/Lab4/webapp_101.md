@@ -204,9 +204,9 @@ Now, let's get the data from a database
 
 ## Making an HTTP call from the UI
 
-There is a component in angular that allows us to make HTTP calls. It's call a service. Let's create one:
+There is a component in angular that allows us to make HTTP calls. It's call a service. Let's create one, but let's create it inside a directory called `_services` just to make it look more organized:
 
-`ng generate service member`
+`ng generate service _services/member`
 
 ### app.module.ts
 
