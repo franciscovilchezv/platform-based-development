@@ -242,6 +242,12 @@ getMembers() {
   }
 ```
 
+In windows, you may need to add this line to your `tsconfig.json` or it will show an error:
+
+```
+"emitDecoratorMetadata": true,
+```
+
 Now we can call this function in the `members-table.component.ts` and use the data it returns instead of the hardcoded data.
 
 ### members-table.component.ts
@@ -264,12 +270,6 @@ ngOnInit(): void {
     this.members = data;
   })
 }
-```
-
-In windows, you may need to add this line to your `tsconfig.json`:
-
-```
-"emitDecoratorMetadata": true,
 ```
 
 Responses from the Http calls are received in a callback. The syntax:
