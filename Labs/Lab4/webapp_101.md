@@ -183,7 +183,7 @@ For example:
 
 As you can see, we can reference the variable `members` inside the `ngFor`. It is iterating the array and assigning each value to the variable `member`. If we want to reference the variable `member` or any of its attributes outside the `ngFor`, we need to use the `{{member}}` syntax.
 
-We can use the same logic and applied it to our table to show all values.
+We can use the same logic that we used to create the list, and applied it to our table to show all values.
 
 ```
 <table>
