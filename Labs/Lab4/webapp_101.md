@@ -227,6 +227,8 @@ First, we need to include HTTP module in `app.module.ts` and include it in the `
 Now, in our `member.service.ts` file, we include the `http` in the component:
 
 ```
+import { HttpClient } from '@angular/common/http';
+
 constructor(
   private http: HttpClient
 ) { }
@@ -260,6 +262,12 @@ ngOnInit(): void {
     this.members = data;
   })
 }
+```
+
+In windows, you may need to add this line to your `tsconfig.json`:
+
+```
+"emitDecoratorMetadata": true,
 ```
 
 Responses from the Http calls are received in a callback. The syntax:
