@@ -181,6 +181,7 @@ For example:
 
 We can use the same logic and applied it to our table to show all values.
 
+```
 <table>
   <tr>
     <th>Full name</th>
@@ -193,6 +194,7 @@ We can use the same logic and applied it to our table to show all values.
     <td>{{member.email}}</td>
   </tr>
 </table>
+```
 
 Now, let's get the data from a database
 
