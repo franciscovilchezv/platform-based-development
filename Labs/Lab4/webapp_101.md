@@ -282,6 +282,7 @@ We can include any parameters that we receive inside the parentesis. Http calls 
 
 If you look back at your website, you will see that the data populating the table is coming from your database!
 
+<!--
 ## CORS
 
 APIs by default have a CORS protection, which prevents them to receive HTTP calls from other domains different than the current one. In other words, our API running in `localhost:3000` is only allowed to receive HTTP requests from `localhost:3000`. There are different ways to allow requests from other domains, but, as usual, somebody else has already [created a library to enable this](https://www.npmjs.com/package/cors), so let's just include it **in our backend**.
@@ -297,3 +298,4 @@ var cors = require('cors');
 
 app.use(cors());
 ```
+-->
