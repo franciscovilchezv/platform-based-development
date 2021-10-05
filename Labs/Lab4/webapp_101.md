@@ -255,11 +255,11 @@ constructor(
 Finally, we need to call the service. We do that in the `ngOnInit` function, which a function that is executed after all our data is loaded. Similar to the `document.onLoad` that we used in plain JS. We will store the results in our attribute `members`. To reference an attribute, we need to use the keyword `this` before the variable.
 
 ```
-  ngOnInit(): void {
-    this.memberService.getMembers().subscribe(data => {
-      this.members = data;
-    })
-  }
+ngOnInit(): void {
+  this.memberService.getMembers().subscribe(data => {
+    this.members = data;
+  })
+}
 ```
 
 Responses from the Http calls are received in a callback. The syntax:
