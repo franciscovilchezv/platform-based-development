@@ -22,4 +22,4 @@
 
 ## Code samples
 
-Code developed during the lab can be found [here](./code_samples).
+Code developed during the lab can be found [here](./code_sample).
