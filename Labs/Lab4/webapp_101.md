@@ -249,6 +249,8 @@ Now we can call this function in the `members-table.component.ts` and use the da
 We import the service so we can use it in the component
 
 ```
+import { MemberService } from '../_services/member.service';
+
 constructor(
     private memberService: MemberService
   ) { }
