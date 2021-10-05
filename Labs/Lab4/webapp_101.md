@@ -142,6 +142,8 @@ td, th {
 
 It looks great! However, that data is not real. Let's fetch some real data from our database. Let's first imagine we have the data in a variable in our javascript.
 
+In the `.ts` we can see the declaration of the component inside the `@Component` and then the creation of a `class`. The attributes and functions that we declare in a class can be referenced from the HTML in different ways.
+
 ```
 // members-table.component.ts
 // ...
@@ -166,8 +168,6 @@ export class MembersTableComponent implements OnInit {
   }
 }
 ```
-
-In the `.ts` we can see the declaration of the component inside the `@Component` and then the creation of a `class`. The attributes and functions that we declare in a class can be referenced from the HTML in different ways.
 
 In our example, we are declaring a variable `members` which, as we said, is available in our `members-table` component!. Attributes do not need to include `var` at the begining. One of the ways to reference a variable in the HTML is using the syntax `{{members}}`. It will show we have an array with two objects.
 
