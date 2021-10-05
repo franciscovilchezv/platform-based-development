@@ -261,3 +261,18 @@ Finally, we need to call the service. We do that in the `ngOnInit` function, whi
     })
   }
 ```
+
+Responses from the Http calls are received in a callback. The syntax:
+
+```
+() => {
+  // your function content
+}
+```
+
+is another syntax in javascript for declaring anonymous functions. It is equivalent to the one we used:
+
+```
+function(){
+}
+```
