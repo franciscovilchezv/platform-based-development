@@ -19,3 +19,7 @@
 - We will [make our API fetch data from a database](./node_102.md) so it can display the chess members from the database. This API can be used by any platform, for example a webpage, mobile app, university systems, etc...
 
 - We will [create a Web Application](./webapp_101.md) that will list chess members in a table. The website will obtain the data from the API previously created.
+
+## Code samples
+
+Code developed during the lab can be found [here](./code_samples).
