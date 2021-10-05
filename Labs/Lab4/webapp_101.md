@@ -236,7 +236,7 @@ And create a function to get the data:
 
 ```
 getMembers() {
-    return this.http.get<any>('localhost:3000/members');
+    return this.http.get('localhost:3000/members');
   }
 ```
 
