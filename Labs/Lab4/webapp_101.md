@@ -167,7 +167,9 @@ export class MembersTableComponent implements OnInit {
 }
 ```
 
-This is declaring a variable `members` which is available in our `members-table` component!. Variables defined outside a function do not need to include `var` at the begining. You can test that by including `{{members}}` in the html. It will show we have an array with two objects.
+In the `.ts` we can see the declaration of the component inside the `@Component` and then the creation of a `class`. The attributes and functions that we declare in a class can be referenced from the HTML in different ways.
+
+In our example, we are declaring a variable `members` which, as we said, is available in our `members-table` component!. Attributes do not need to include `var` at the begining. One of the ways to reference a variable in the HTML is using the syntax `{{members}}`. It will show we have an array with two objects.
 
 Now we will learn our first Angular directive. It is called `*ngFor`.  It allows us to iterate an array in the HTML.
 
@@ -178,6 +180,8 @@ For example:
   <li *ngFor"let member of members">{{member.fullname}}</li>
 </ul>
 ```
+
+As you can see, we can reference the variable `members` inside the `ngFor`. It is iterating the array and assigning each value to the variable `member`. If we want to reference the variable `member` or any of its attributes outside the `ngFor`, we need to use the `{{member}}` syntax.
 
 We can use the same logic and applied it to our table to show all values.
 
