@@ -142,6 +142,8 @@ td, th {
 
 It looks great! However, that data is not real. Let's fetch some real data from our database. Let's first imagine we have the data in a variable in our javascript.
 
+In the `.ts` we can see the declaration of the component inside the `@Component` and then the creation of a `class`. The attributes and functions that we declare in a class can be referenced from the HTML in different ways.
+
 ```
 // members-table.component.ts
 // ...
@@ -167,7 +169,7 @@ export class MembersTableComponent implements OnInit {
 }
 ```
 
-This is declaring a variable `members` which is available in our `members-table` component!. Variables defined outside a function do not need to include `var` at the begining. You can test that by including `{{members}}` in the html. It will show we have an array with two objects.
+In our example, we are declaring a variable `members` which, as we said, is available in our `members-table` component!. Attributes do not need to include `var` at the begining. One of the ways to reference a variable in the HTML is using the syntax `{{members}}`. It will show we have an array with two objects. We can use the [pipe](https://angular.io/guide/pipes) to display the data in text format with the sysntax `{{members | json}}`. We will learn more about pipes in the next guides, but for now, you can use that syntax to display the content of your objects.
 
 Now we will learn our first Angular directive. It is called `*ngFor`.  It allows us to iterate an array in the HTML.
 
@@ -179,7 +181,9 @@ For example:
 </ul>
 ```
 
-We can use the same logic and applied it to our table to show all values.
+As you can see, we can reference the variable `members` inside the `ngFor`. It is iterating the array and assigning each value to the variable `member`. If we want to reference the variable `member` or any of its attributes outside the `ngFor`, we need to use the `{{member}}` syntax.
+
+We can use the same logic that we used to create the list, and applied it to our table to show all values.
 
 ```
 <table>
@@ -200,9 +204,9 @@ Now, let's get the data from a database
 
 ## Making an HTTP call from the UI
 
-There is a component in angular that allows us to make HTTP calls. It's call a service. Let's create one:
+There is a component in angular that allows us to make HTTP calls. It's call a service. Let's create one, but let's create it inside a directory called `_services` just to make it look more organized:
 
-`ng generate service member`
+`ng generate service _services/member`
 
 ### app.module.ts
 
@@ -232,7 +236,7 @@ And create a function to get the data:
 
 ```
 getMembers() {
-    return this.http.get<any>('localhost:3000/members');
+    return this.http.get<any>('http://localhost:3000/members');
   }
 ```
 
@@ -247,3 +251,51 @@ constructor(
     private memberService: MemberService
   ) { }
 ```
+
+Finally, we need to call the service. We do that in the `ngOnInit` function, which a function that is executed after all our data is loaded. Similar to the `document.onLoad` that we used in plain JS. We will store the results in our attribute `members`. To reference an attribute, we need to use the keyword `this` before the variable.
+
+```
+ngOnInit(): void {
+  this.memberService.getMembers().subscribe(data => {
+    this.members = data;
+  })
+}
+```
+
+Responses from the Http calls are received in a callback. The syntax:
+
+```
+() => {
+  // your function content
+}
+```
+
+is another syntax in javascript for declaring anonymous functions. It is equivalent to the one we used:
+
+```
+function(){
+  // your function content
+}
+```
+
+We can include any parameters that we receive inside the parentesis. Http calls will give you by default a `data` parameter with the data received from the http call.
+
+If you look back at your website, you will see that the data populating the table is coming from your database!
+
+<!--
+## CORS
+
+APIs by default have a CORS protection, which prevents them to receive HTTP calls from other domains different than the current one. In other words, our API running in `localhost:3000` is only allowed to receive HTTP requests from `localhost:3000`. There are different ways to allow requests from other domains, but, as usual, somebody else has already [created a library to enable this](https://www.npmjs.com/package/cors), so let's just include it **in our backend**.
+
+```
+npm install cors --save
+```
+
+An we just include it and use it the following way:
+
+```
+var cors = require('cors');
+
+app.use(cors());
+```
+-->
