@@ -24,7 +24,7 @@ function getMembers(req, res){
     // Step 0: Definir la conexion a la BD
     var connection = mysql.createConnection({
         host: 'localhost',
-        user: 'fvilchez',
+        user: 'utec',
         password: '1234567890',
         database: 'my_chess_club'
     });
@@ -38,7 +38,8 @@ function getMembers(req, res){
                     " FROM member; "
 
     connection.query(myQuery, function(error, results, fields){
-        // Ya tendgo el resultado del query en `results`
+        // Ya tengo el resultado del query en `results`
+        
         // Step 3: Procesar el resultado de la BD
         res.send(results);
 
