@@ -1,0 +1,14 @@
+{
+  "name": "api_chess",
+  "version": "1.0.0",
+  "description": "Api from Lab 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renato Sebastian Rodriguez Llanos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
