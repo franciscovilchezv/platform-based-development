@@ -95,6 +95,16 @@ function getMembers(req, res){
 }
 ```
 
+## Troubleshooting errors
+
+You can include the following line inside the callback if you want to be aware of any errors that may occur with the DB interaction:
+
+```
+if (error) throw error;
+```
+
+Which will throw the error if there is one. You may need to restart your project if an error is thrown.
+
 ## ER_NOT_SUPPORTED_AUTH_MODE
 
 If you get the error ER_NOT_SUPPORTED_AUTH_MODE, run the following command in your `mysql` instance.
