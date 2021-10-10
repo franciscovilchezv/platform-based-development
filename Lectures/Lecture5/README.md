@@ -6,6 +6,6 @@ In this lecture, we will use Angular to make an HTTP call to our backend APIs.
 
 Additionally, we will introduce a few concepts:
 
-- [Lecture](./Lecture5.pdf)
+- [Lecture](./Lecture5.pdf) (We only explained Angular Routes)
 
 We will assign the second part of homework 3
