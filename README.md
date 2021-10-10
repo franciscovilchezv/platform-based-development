@@ -148,7 +148,7 @@ New theory topic:
 
 ### Lab 5
 
-Holiday: Que viva Miguel Grau.
+Holiday: Que viva [Miguel Grau](https://en.wikipedia.org/wiki/Battle_of_Angamos).
 
 ### Lecture 6
 
