@@ -1,3 +1,3 @@
 # Lab 5
 
-![](https://cdn11.bigcommerce.com/s-10c6f/images/stencil/1280x1280/products/3836/7255/FS72927-24__72706.1523053136.jpg)
+In this lab, we will imprement a [CRUD API](./crud_api.md) using Express. This is a continuation of the API progress we did in previous labs.
