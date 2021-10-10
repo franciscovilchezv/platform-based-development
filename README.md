@@ -138,7 +138,6 @@ Continuation of Lab 4:
 - Create Angular project & call backend
 
 New theory topic:
-- HTTP methods
 - Introduction to Angular routes
 
 #### Material
@@ -147,16 +146,28 @@ New theory topic:
 - [Guide](./Lectures/Lecture5)
 - [Slides](./Lectures/Lecture5.pdf)
 
+### Lab 5
+
+Holiday: Que viva Miguel Grau.
+
 ### Lecture 6
+
+New theory topic:
+- HTTP methods
 
 Lab content:
 - CRUD NodeJS
-- CRUD Angular
-- SQL Queries (Joins)
+
+#### Material
+
+- [Guide](./Labs/Lab6)
+- [Slides](./Lectures/Lecture5.pdf)
 
 ### Lab 6
 
-
+Lab content:
+- CRUD Angular
+- SQL Queries (Joins)
 
 ### Lecture 7
 
