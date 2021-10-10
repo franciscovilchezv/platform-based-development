@@ -102,7 +102,7 @@ We are also including the attributes that we want to insert in `myValues` as a s
 
 Now we can make the HTTP call using Postman.
 
-![](post.png)
+![](./figures/post.png)
 
 We are including the following `json` in the body. Make sure to mark its type as `JSON` in POSTMAN:
 
@@ -170,7 +170,7 @@ connection.query(myQuery, myValues, function(error, results, fields){
 
 ### Postman request for `DELETE /members`
 
-![](./delete.png)
+![](./figures/delete.png)
 
 ## `PUT /members`
 
@@ -304,7 +304,7 @@ app.put('/members/:member_id', function(req, res){
 
 ### Postman request for `PUT /members`
 
-![](./put.png)
+![](./figures/put.png)
 
 ## `GET /members`
 
@@ -434,7 +434,7 @@ app.get('/members', function(req, res){
 
 ## Postman request for `GET /members`
 
-![](./get_filters.png)
+![](./figures/get_filters.png)
 
 ## `GET /members/:member_id`
 
@@ -487,7 +487,7 @@ Notice that we are returning `results[0]`, since the `mysql` library always retu
 
 ### Postman request for `GET /members/:member_id`
 
-![](./get.png)
+![](./figures/get.png)
 
 ## Note
 
