@@ -493,4 +493,6 @@ Notice that we are returning `results[0]`, since the `mysql` library always retu
 
 So far, we are not handling validations or possible errors that can occur in our application.
 
+Notice that we have a lot of duplicate code in the `mysql` queries that we can reuse. This will be handled in next labs.
+
 Code created in this guide is available in [code_sample](./code_sample) directory
