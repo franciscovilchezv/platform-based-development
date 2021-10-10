@@ -160,7 +160,7 @@ Lab content:
 
 #### Material
 
-- [Guide](./Labs/Lab6)
+- [Guide](./Labs/Lab5)
 - [Slides](./Lectures/Lecture5.pdf)
 
 ### Lab 6
