@@ -42,7 +42,7 @@ Otherwise, we will have to parse the text in json format that was received in `r
 Our query will look like this:
 
 ```sql
-INSERT INTO member (fullname, birthday, ranking, gender, email)
+INSERT INTO member (fullname, birthday, ranking, gender, email, created_date, modified_date)
 VALUES ('Viswanathan Anand', '1969-12-11', 2774, 'Male', 'vishy@anand.com', NOW(), NOW());
 ```
 
