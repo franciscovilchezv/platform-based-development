@@ -41,6 +41,7 @@ Código de vestimenta: Libre
 4. Grupo ojito ojito
 5. Grupo sandía
 6. Grupo tenedorcín
+7. Grupo solo contra el mundo
 
 ## Entregables
 
