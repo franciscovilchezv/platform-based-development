@@ -165,14 +165,19 @@ Lab content:
 
 ### Lab 6
 
-Lab content:
 - CRUD Angular
-- SQL Queries (Joins)
+
+#### Material
+
+- [Guide](./Labs/Lab5)
+- Homework: Work on your project
 
 ### Lecture 7
+- Framework CSS
+- SQL Queries (Joins)
 
 ### Lab 7
-
+- Review Projects with each member
 
 ### Lecture 8
 - Presentación Proyecto - Parte Web
