@@ -42,6 +42,12 @@ You may have noticed that if we deleted the default values we had in our variabl
 members: any[] = [];
 ```
 
+For some reason, VSCode in windows forced me to delete the following attribute from the `tsconfig.js` file:
+
+```
+// "emitDecoratorMetadata": true,
+```
+
 ## Create a new member
 
 We will need to create a new component in which we will include the `form` where the use can create a new chess member. Let's start by creating the component:
@@ -276,7 +282,7 @@ And we include each variable declared for our `membersForm` variable in each of 
   </div>
   <div>
     <label>Ranking (rating):</label>
-    <input type="number" formControlName="rating">
+    <input type="number" formControlName="ranking">
   </div>
   <div>
     <label>Gender:</label>
@@ -655,18 +661,35 @@ export class MembersNewComponent implements OnInit {
     });
   }
 
-  // ...
+  ngOnInit(): void {
+    this.activatedRoute.paramMap.subscribe(
+      data => {
+        this.member_id = data.get('member_id');
 
-  addChessMember(values: any){
-    this.memberService.insertMember(values).subscribe(
+        this.membersService.getMembersById(this.member_id). subscribe(
+          response => {
+            console.log(response);
+            this.member = response;
+            this.membersForm.patchValue(this.member);
+          },
+          error => {
+            console.log(error);
+          }
+        )
+      }
+    )
+  }
+
+  saveChessMember(values: any){
+    this.membersService.updateMember(this.member_id, members).subscribe(
       response => {
         console.log(response);
-        this.router.navigate(['/members']);
+        this.router.navigate(['/']);
       },
       error => {
         console.error(error);
       }
-    );
+    )
   }
 }
 ```
