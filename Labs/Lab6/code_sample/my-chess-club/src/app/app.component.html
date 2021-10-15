@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+
+<ul>
+  <li>
+    <a routerLink="/">Home</a>
+  </li>
+  <li>
+    <a routerLink="/members">List members</a>
+  </li>
+  <li>
+    <a routerLink="/members/new">Create member</a>
+  </li>
+</ul>
+
+<button (click)="showAuthor()">Who created this?</button>
+
+<router-outlet></router-outlet>

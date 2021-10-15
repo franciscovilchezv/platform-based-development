@@ -1,0 +1,20 @@
+<table>
+  <tr>
+    <th>Full name</th>
+    <th>Birthday</th>
+    <th>Ranking</th>
+    <th>Gender</th>
+    <th>Email</th>
+    <th>Edit</th>
+    <th>Delete</th>
+  </tr>
+  <tr *ngFor="let item of members">
+    <td><a [routerLink]="['/members/view/', item.member_id]">{{item.fullname}}</a></td>
+    <td>{{item.birthday}}</td>
+    <td>{{item.ranking}}</td>
+    <td>{{item.gender}}</td>
+    <td>{{item.email}}</td>
+    <td><button [routerLink]="['/members/edit/', item.member_id]">Edit</button></td>
+    <td><button (click)="deleteMember(item.member_id)">Delete</button></td>
+  </tr>
+</table>
