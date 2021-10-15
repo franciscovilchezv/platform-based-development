@@ -747,3 +747,16 @@ We can use that variable in our code to decide when to show the table in `member
 If we set the `flag` variable to `false`, the `<table>` will never show up.
 
 That way, we can use `ngIf` in order to display the table only if the `members` variable has data in it.
+
+## Possible solution to auto-detect modules
+
+Install the following extension in VSCode
+
+```
+Name: Visual Studio IntelliCode
+Id: visualstudioexptteam.vscodeintellicode
+Description: AI-assisted development
+Version: 1.2.14
+Publisher: Microsoft
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+```
