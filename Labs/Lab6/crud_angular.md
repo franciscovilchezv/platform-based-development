@@ -253,7 +253,7 @@ export class MembersNewComponent implements OnInit {
     this.membersForm = this.formBuilder.group({
       fullname: [''],
       birthday: [''],
-      rating: [''],
+      ranking: [''],
       gender: [''],
       email: ['']
     });
