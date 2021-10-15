@@ -173,11 +173,11 @@ Lab content:
 - Homework: Work on your project
 
 ### Lecture 7
-- Framework CSS
+- Review Projects with each member
 - SQL Queries (Joins)
 
 ### Lab 7
-- Review Projects with each member
+- Framework CSS
 
 ### Lecture 8
 - Presentación Proyecto - Parte Web
