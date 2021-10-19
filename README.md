@@ -174,9 +174,11 @@ Lab content:
 
 ### Lecture 7
 - Review Projects with each member
-- SQL Queries (Joins)
+
 
 ### Lab 7
+- Singletons
+- SQL Queries (Joins)
 - Framework CSS
 
 ### Lecture 8
