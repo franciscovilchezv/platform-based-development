@@ -173,11 +173,10 @@ Lab content:
 - Homework: Work on your project
 
 ### Lecture 7
-- Review Projects with each member
-
+- Review Projects with each group
 
 ### Lab 7
-- Singletons
+- Authentication
 - SQL Queries (Joins)
 - Framework CSS
 
