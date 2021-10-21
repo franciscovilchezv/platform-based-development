@@ -14,7 +14,7 @@ Su proyecto 1 debe al menos hacer uso de los siguientes requisitos:
 
 Requisitos específicos:
 
-- Creación de al menos 8 vistas (en otras palabras, 6 rutas en su Angular router).
+- Creación de al menos 8 vistas (en otras palabras, 8 rutas en su Angular router).
 - Desarrollo de al menos 8 servicios web. Debe haber utilizado los métodos GET, PUT, POST y DELETE.
 - Todos sus servicios web deben de ser consumidos desde la Aplicación Web.
 
