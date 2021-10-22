@@ -183,6 +183,7 @@ Lab content:
 #### Material
 
 - [Guide](./Labs/Lab7)
+- Homework: Work on your project
 
 ### Lecture 8
 
