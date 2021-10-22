@@ -116,6 +116,10 @@ FROM member
 4 rows in set (0.00 sec)
 ```
 
+### `PASSWORD()`
+
+`PASSWORD()` can be used in a similar way to `UPPER()` or `LOWER()`. The difference is that `PASSWORD()` converts a string into a 255 characters sequence. It is used usually before storing a password in the database, so the real password is never visible in the database.
+
 ## Joining values from different tables
 
 So far, we have learned how to read values from a single table; however, sometimes we may need to get values from different tables in a single query.
