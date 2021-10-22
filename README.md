@@ -191,7 +191,7 @@ Lab content:
 
 #### Material
 
-- [Guide](./Labs/Lab8)
+- [Guide](./Lectures/Lecture8)
 
 ### Lab 8
 - Office Hours
