@@ -1,0 +1,26 @@
+<form [formGroup]="membersForm" (ngSubmit)="saveChessMember(membersForm.value)">
+  <div>
+    <label>Full name:</label>
+    <input type="text" formControlName="fullname">
+  </div>
+  <div>
+    <label>Birthday:</label>
+    <input type="date" formControlName="birthday">
+  </div>
+  <div>
+    <label>Ranking (rating):</label>
+    <input type="number" formControlName="ranking">
+  </div>
+  <div>
+    <label>Gender:</label>
+    <input type="text" formControlName="gender">
+  </div>
+  <div>
+    <label>Email:</label>
+    <input type="email" formControlName="email">
+  </div>
+  <div>
+    <button type="submit">Submit</button>
+  </div>
+  
+</form>

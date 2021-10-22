@@ -1,0 +1,27 @@
+<div class="container">
+  <h3>Editing an existing user</h3>
+  <form [formGroup]="membersForm" (ngSubmit)="saveChessMember(membersForm.value)">
+    <div class="mb-3">
+      <label for="fullname" class="form-label">Full name</label>
+      <input type="text" class="form-control" id="fullname" formControlName="fullname">
+    </div>
+    <div class="mb-3">
+      <label for="birthday" class="form-label">Birthday</label>
+      <input type="date" class="form-control" id="birthday" formControlName="birthday">
+    </div>
+    <div class="mb-3">
+      <label for="ranking" class="form-label">Ranking</label>
+      <input type="number" class="form-control" id="ranking" formControlName="ranking">
+    </div>
+    <div class="mb-3">
+      <label for="gender" class="form-label">Gender</label>
+      <input type="text" class="form-control" id="gender" formControlName="gender">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" formControlName="email">
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>

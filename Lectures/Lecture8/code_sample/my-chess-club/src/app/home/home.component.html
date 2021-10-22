@@ -1,0 +1,16 @@
+<div class="container col-xxl-8 px-4 py-5">
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="https://i.guim.co.uk/img/media/699cce4914b90ae0ba89787178bc48314d50eb89/0_84_5081_3223/master/5081.jpg?width=940&quality=45&auto=format&fit=max&dpr=2&s=2f25fd28b1297e71cf54e63474c91b22" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold lh-1 mb-3">Play with the best</h1>
+      <p class="lead">My Chess Club is open to all chess players who want to play and practice with the best chess players of our country. We invite to be part of this great family!</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" *ngIf="authService.isLoggedIn()" (click)="logout()">Logout</button>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" *ngIf="!authService.isLoggedIn()" routerLink="/login">Login</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4" (click)="showAuthor()">More info</button>
+      </div>
+    </div>
+  </div>
+</div>

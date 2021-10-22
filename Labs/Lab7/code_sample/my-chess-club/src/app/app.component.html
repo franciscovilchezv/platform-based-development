@@ -1,0 +1,30 @@
+<h1>{{title}}</h1>
+<h2 *ngIf="authService.isLoggedIn()">{{authService.getCurrentUser().username}} is logged in</h2>
+<h2 *ngIf="!authService.isLoggedIn()">Login to access all our features!</h2>
+
+<ul>
+  <li>
+    <a routerLink="/">Home</a>
+  </li>
+  <li *ngIf="!authService.isLoggedIn()">
+    <a routerLink="/login">Login</a>
+  </li>
+  <li *ngIf="!authService.isLoggedIn()">
+    <a routerLink="/register">Register</a>
+  </li>
+  <li *ngIf="authService.isLoggedIn()">
+    <a routerLink="/members">List members</a>
+  </li>
+  <li *ngIf="authService.isLoggedIn()">
+    <a routerLink="/members/new">Create member</a>
+  </li>
+  <li *ngIf="authService.isLoggedIn()">
+    <a href="javascript:void(0);" (click)="logout()">Logout</a>
+  </li>
+</ul>
+
+<button (click)="showAuthor()">Who created this?</button>
+
+<hr>
+
+<router-outlet></router-outlet>

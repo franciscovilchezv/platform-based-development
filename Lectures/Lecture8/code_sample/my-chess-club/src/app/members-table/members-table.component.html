@@ -1,0 +1,34 @@
+<div class="container">
+  <h1>Chess members</h1>
+
+  <p>This is our family so far. Join as soon as you can!</p>
+  
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Full name</th>
+        <th>Birthday</th>
+        <th>Ranking</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of members">
+        <td><a [routerLink]="['/members/view/', item.member_id]">{{item.fullname}}</a></td>
+        <td>{{item.birthday}}</td>
+        <td>{{item.ranking}}</td>
+        <td>{{item.gender}}</td>
+        <td>{{item.email}}</td>
+        <td>
+          <a [routerLink]="['/members/edit/', item.member_id]"><i class="bi-pencil-fill"></i></a>
+        </td>
+        <td>
+          <a href="javascript:void(0);" (click)="deleteMember(item.member_id)"><i class="bi-trash"></i></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

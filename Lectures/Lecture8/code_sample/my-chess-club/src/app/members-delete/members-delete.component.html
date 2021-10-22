@@ -1,0 +1,10 @@
+<div class="px-4 py-5 my-5 text-center">
+  <h1 class="display-5 fw-bold">Deleting a member</h1>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead mb-4">This action can't be undone, so please, verify that you know what you are doing before confirming or clicking the button below. Are you sure you want to delte the member {{member_id}}?.</p>
+    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <button type="button" class="btn btn-danger btn-lg px-4 gap-3" (click)="deleteMember(member_id)">Proceed with delete</button>
+      <button type="button" class="btn btn-outline-secondary btn-lg px-4" (click)="goBack()">No, take me back please</button>
+    </div>
+  </div>
+</div>

@@ -110,7 +110,7 @@ Continuation of Lab 2:
 
 ### Lecture 4
 
-- Backend + Databasea
+- Backend + Databases
 - HTTP
 - Frontend + Backend
 - Full picture
@@ -144,7 +144,7 @@ New theory topic:
 
 - [Homework 3 - Parte 2](./Homeworks/Homework3)
 - [Guide](./Lectures/Lecture5)
-- [Slides](./Lectures/Lecture5.pdf)
+- [Slides](./Lectures/Lecture5/Lecture5.pdf)
 
 ### Lab 5
 
@@ -161,7 +161,7 @@ Lab content:
 #### Material
 
 - [Guide](./Labs/Lab5)
-- [Slides](./Lectures/Lecture5.pdf)
+- [Slides](./Lectures/Lecture5/Lecture5.pdf)
 
 ### Lab 6
 
@@ -173,33 +173,54 @@ Lab content:
 - Homework: Work on your project
 
 ### Lecture 7
-- Review Projects with each group
+- Review projects with each group
 
 ### Lab 7
-- Authentication
 - SQL Queries (Joins)
-- Framework CSS
+- Authentication with roles
 
 ### Lecture 8
-- Presentación Proyecto - Parte Web
+- Angular Pipes
+- Framework CSS
 
 ### Lab 8
-### Lecture 9
-### Lab 9
-### Lecture 10
-### Lab 10
-### Lecture 11
+- Office Hours
 
+### Lecture 9
+- Mobile Development 101
 - Native Apps vs. Hybrid Apps
+- Cordoba
+
+### Lab 9
+- Presentación Proyecto - Parte Web
+
+### Lecture 10
+- Ionic & Ionic Components
+
+### Lab 10
+- Ionic Installation
+- Ionic + Backend
+
+### Lecture 11
+- Ionic Plugins
 
 ### Lab 11
+- Example on Ionic Plugins
+
 ### Lecture 12
+
 ### Lab 12
+- PC2
+
 ### Lecture 13
 ### Lab 13
+
+
 ### Lecture 14
 ### Lab 14
 ### Lecture 15
+- Guest Lecture
+  
 ### Lab 15
 ### Lecture 16
 - Presentación Proyecto - Parte móvil
