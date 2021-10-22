@@ -178,6 +178,7 @@ Lab content:
 ### Lab 7
 - SQL Queries (Joins)
 - Authentication with roles
+- Angular Pipes
 
 #### Material
 
@@ -186,7 +187,7 @@ Lab content:
 ### Lecture 8
 
 Lab content:
-- Angular Pipes
+
 - Framework CSS
 
 #### Material
