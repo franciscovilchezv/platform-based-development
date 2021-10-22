@@ -179,9 +179,19 @@ Lab content:
 - SQL Queries (Joins)
 - Authentication with roles
 
+#### Material
+
+- [Guide](./Labs/Lab7)
+
 ### Lecture 8
+
+Lab content:
 - Angular Pipes
 - Framework CSS
+
+#### Material
+
+- [Guide](./Labs/Lab8)
 
 ### Lab 8
 - Office Hours
