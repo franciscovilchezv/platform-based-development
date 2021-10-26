@@ -199,9 +199,9 @@ Lab content:
 - Office Hours
 
 ### Lecture 9
+- Motivation
 - Mobile Development 101
 - Native Apps vs. Hybrid Apps
-- Cordoba
 
 ### Lab 9
 - Presentación Proyecto - Parte Web
@@ -213,23 +213,45 @@ Lab content:
 - Ionic Installation
 - Ionic + Backend
 
+#### Material
+
+- Homework 5
+
 ### Lecture 11
 - Ionic Plugins
+- Cordoba & Capacitor
 
 ### Lab 11
 - Example on Ionic Plugins
 
+#### Material
+
+- Homework 6
+
 ### Lecture 12
+
+- More plugins
 
 ### Lab 12
 - PC2
 
 ### Lecture 13
+
+- Example on more plugins
+
 ### Lab 13
 
+#### Material
+
+- Homework 7
 
 ### Lecture 14
 ### Lab 14
+
+#### Material
+
+- Homework 8
+
 ### Lecture 15
 - Guest Lecture
   
