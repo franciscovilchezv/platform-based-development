@@ -20,14 +20,24 @@ Requisitos específicos:
 
 ## Presentación
 
-El equipo (uno o más representantes) presentará el proyecto el día **26 de octubre del 2021**.
+El equipo (uno o más representantes) presentará el proyecto el día **5 de noviembre del 2021**.
 
-La presentación durará 5 minutos. Al momento de cumplirse los 5 minutos, la presentación se detendrá y se procederá a calificar solamente el contenido mostrado. Debe incluir en su presentación:
+El puntaje máximo a obtener en el proyecto es de 20 puntos.
+
+La presentación deberá incluir:
+
+- Título del proyecto y motivación (1 minuto)
+- Funcionalidades: Listar las 8 vistas web (urls), los 8 servicios web (urls + http method) y la funcionalidad que realiza. (2 minutos)
+- DEMO del proyecto (4 minutos)
+- Preguntas al grupo (3 minutos)
+
+
+<!-- La presentación durará 5 minutos. Al momento de cumplirse los 5 minutos, la presentación se detendrá y se procederá a calificar solamente el contenido mostrado. Debe incluir en su presentación:
 
 - Tema del proyecto y motivación (1 minuto)
 - DEMO (4 minutos)
 
-Después de realizada la presentación, se procederá a hacer preguntas al grupo.
+Después de realizada la presentación, se procederá a hacer preguntas al grupo. -->
 
 Se le sugiere a los integrantes del grupo mostrar su cámara durante la presentación **sólo si es que es posible**.
 
@@ -42,6 +52,7 @@ Código de vestimenta: Libre
 5. Grupo sandía
 6. Grupo tenedorcín
 7. Grupo solo contra el mundo
+8. Grupo solo x2
 
 ## Entregables
 
@@ -57,9 +68,12 @@ El link del repositorio del proyecto debe ser subido al canvas. Dicho repositori
   - Nombre de Integrantes y ID de GitHub
   - Tema del proyecto
   - Motivación
+  - Funcionalidades
   - Guía de instalación en la que explica cómo una persona puede descargar su proyecto y correrlo en su computadora local.
+  
+Puede encontrar un ejemplo del README en el siguiente [link](./README-ejemplo.md).
 
-*Dicho link debe ser subido a más tardar el 25 de octubre a las 23:59pm*
+*Dicho link debe ser subido a más tardar el 4 de noviembre a las 23:59pm*
 
 ### Autocalificación grupal
 
@@ -70,24 +84,32 @@ En el canvas del curso, hay una tarea llamada Proyecto 1. En ella deberá poner 
 
 **Debe también incluirse a usted mismo en la calificación**. Puede incluir cualquier observación adicional al final si lo desea.
 
-```
-Ejemplo:
+Puede encontrar un ejemplo en el siguiente [link](./autocalificacion.md).
 
-Grupo Chess
+*La autocalificación grupal debe ser subida a más tardar el 4 de noviembre a las 23:59pm.* De lo contrario, usted no obtendrá nota alguna por el trabajo.
 
-- Francisco Vilchez (10)
-- Magnus Carlsen (0)
-- Andrew Tang (5)
-- Alireza Firouzja (10)
+## Calificación del proyecto
 
-Observaciones:
-Magnus, donde quiera que estés, seguimos esperando tu parte.
-```
+### Presentación (16 puntos)
 
-Lo cual significaría que Francisco y Alireza trabajaron en el proyecto, con algo de apoyo de Andrew y nada de apoyo de Magnus.
+El alumno presentará los flujos y se procederá a calificar si cada url realiza lo indicado.
 
-Dicha calificación determinará la nota final que obtenga cada integrante del equipo.
+- Funciona: 2 puntos
+- No funciona: 0 puntos
 
-Por ejemplo, si el grupo "Chess" obtuvo 20 puntos en la presentación, *es probable* que Francisco y Alireza obtengan 20 de nota, Andrew 10 y Magnus 0.
+| Angular Route | Funciona | Puntaje
+| --- | --- | --- |
+| `/login` | SI | 2 puntos | 
+| `/register` | SI | 2 puntos | 
+| `/members` | SI | 2 puntos | 
+| `/tournaments` | SI | 2 puntos | 
+| `/tournaments/new` | SI | 2 puntos |
+| `/tournaments/delete` | SI | 2 puntos |
+| `/tournaments/:tournament_id/user` | NO | 0 puntos |
+| `/tournaments/:tournament_id/user` | NO | 0 puntos |
 
-*La autocalificación grupal debe ser subida a más tardar el 26 de octubre a las 23:59pm.* De lo contrario, usted no obtendrá nota alguna por el trabajo.
+La calificación se detentrá si el proyecto **se cae**.
+
+### Preguntas (4 puntos)
+
+- Pregunta 1-4: 1-4 puntos
