@@ -18,42 +18,6 @@ Requisitos específicos:
 - Desarrollo de al menos 8 servicios web. Debe haber utilizado los métodos GET, PUT, POST y DELETE.
 - Todos sus servicios web deben de ser consumidos desde la Aplicación Web.
 
-## Presentación
-
-El equipo (uno o más representantes) presentará el proyecto el día **5 de noviembre del 2021**.
-
-El puntaje máximo a obtener en el proyecto es de 20 puntos.
-
-La presentación deberá incluir:
-
-- Título del proyecto y motivación (1 minuto)
-- Funcionalidades: Listar las 8 vistas web (urls), los 8 servicios web (urls + http method) y la funcionalidad que realiza. (2 minutos)
-- DEMO del proyecto (4 minutos)
-- Preguntas al grupo (3 minutos)
-
-
-<!-- La presentación durará 5 minutos. Al momento de cumplirse los 5 minutos, la presentación se detendrá y se procederá a calificar solamente el contenido mostrado. Debe incluir en su presentación:
-
-- Tema del proyecto y motivación (1 minuto)
-- DEMO (4 minutos)
-
-Después de realizada la presentación, se procederá a hacer preguntas al grupo. -->
-
-Se le sugiere a los integrantes del grupo mostrar su cámara durante la presentación **sólo si es que es posible**.
-
-Código de vestimenta: Libre
-
-## Orden de Presentación (TBD)
-
-1. Grupo de la suerte (777)
-2. Grupo 4
-3. Grupo `null`
-4. Grupo ojito ojito
-5. Grupo sandía
-6. Grupo tenedorcín
-7. Grupo solo contra el mundo
-8. Grupo solo x2
-
 ## Entregables
 
 ### Link del repositorio
@@ -88,25 +52,55 @@ Puede encontrar un ejemplo en el siguiente [link](./autocalificacion.md).
 
 *La autocalificación grupal debe ser subida a más tardar el 4 de noviembre a las 23:59pm.* De lo contrario, usted no obtendrá nota alguna por el trabajo.
 
+## Presentación
+
+El equipo (uno o más representantes) presentará el proyecto el día **5 de noviembre del 2021**.
+
+La presentación (10 minutos) deberá incluir:
+
+- Título del proyecto y motivación (1 minuto)
+- Funcionalidades: Listar las 8 vistas web (urls), los 8 servicios web (urls + http method) y la funcionalidad que realiza. (2 minutos)
+- DEMO del proyecto (4 minutos)
+- Preguntas al grupo (3 minutos)
+
+Se le sugiere a los integrantes del grupo mostrar su cámara durante la presentación **sólo si es que es posible**.
+
+Código de vestimenta: Libre
+
+## Orden de Presentación (TBD)
+
+1. Grupo de la suerte (777)
+2. Grupo 4
+3. Grupo `null`
+4. Grupo ojito ojito
+5. Grupo sandía
+6. Grupo tenedorcín
+7. Grupo solo contra el mundo
+8. Grupo solo x2
+
 ## Calificación del proyecto
+
+El puntaje máximo a obtener en el proyecto es de 20 puntos.
 
 ### Presentación (16 puntos)
 
 El alumno presentará los flujos y se procederá a calificar si cada url realiza lo indicado.
 
-- Funciona: 2 puntos
+- Funciona: 2 puntos o 1 punto + pregunta(s) de 1 punto.
 - No funciona: 0 puntos
+
+Ejemplo basado en el caso "Club de ajedrez":
 
 | Angular Route | Funciona | Puntaje
 | --- | --- | --- |
-| `/login` | SI | 2 puntos | 
-| `/register` | SI | 2 puntos | 
-| `/members` | SI | 2 puntos | 
-| `/tournaments` | SI | 2 puntos | 
-| `/tournaments/new` | SI | 2 puntos |
-| `/tournaments/delete` | SI | 2 puntos |
-| `/tournaments/:tournament_id/user` | NO | 0 puntos |
-| `/tournaments/:tournament_id/user` | NO | 0 puntos |
+| `/login` | SI | 2 | 
+| `/register` | SI | 2 | 
+| `/members` | SI | 2 | 
+| `/tournaments` | SI | 1 + 1 | 
+| `/tournaments/new` | SI | 2 |
+| `/tournaments/delete` | SI | 1 + 1 |
+| `/tournaments/:tournament_id/user` | NO | 0 |
+| `/tournaments/:tournament_id/user` | NO | 0 |
 
 La calificación se detentrá si el proyecto **se cae**.
 
