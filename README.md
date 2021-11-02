@@ -199,15 +199,24 @@ Lab content:
 - Office Hours
 
 ### Lecture 9
-- Motivation
-- Mobile Development 101
-- Native Apps vs. Hybrid Apps
+- Cross-platform development
+  - Native Apps
+  - Mobile Web
+  - Hybrid Apps
+- Which one is better?
+- Ionic
+  - Components
+  - Plugins
+  - Building Process
+  - CLI
+
+- Details about Project Presentation
 
 ### Lab 9
 - Presentación Proyecto - Parte Web
 
 ### Lecture 10
-- Ionic & Ionic Components
+- Ionic Components
 
 ### Lab 10
 - Ionic Installation
