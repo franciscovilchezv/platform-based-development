@@ -215,6 +215,10 @@ Lab content:
 ### Lab 9
 - Presentación Proyecto - Parte Web
 
+#### Material
+
+- [Slides](./Lectures/Lecture9/Lecture9.pdf)
+
 ### Lecture 10
 - Ionic Components
 
