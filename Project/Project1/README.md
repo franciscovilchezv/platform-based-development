@@ -73,7 +73,7 @@ Código de vestimenta: Libre
 2. Grupo 4 (DONE)
 3. Grupo `null`
 4. Grupo ojito ojito (DONE)
-5. Grupo sandía
+5. Grupo sandía (DONE)
 6. Grupo tenedorcín (DONE)
 7. Grupo solo contra el mundo
 8. Grupo solo x2
