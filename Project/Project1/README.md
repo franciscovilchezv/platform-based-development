@@ -75,7 +75,7 @@ Código de vestimenta: Libre
 4. Grupo ojito ojito (DONE)
 5. Grupo sandía (DONE)
 6. Grupo tenedorcín (DONE)
-7. Grupo solo contra el mundo
+7. Grupo solo contra el mundo (DONE)
 8. Grupo solo x2
 
 ## Calificación del proyecto
