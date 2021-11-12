@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="members"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end" *ngIf="member">
+      <ion-button [routerLink]="['/members/edit', member.member_id]">Edit</ion-button>
+    </ion-buttons>
+    <ion-title *ngIf="member">{{member.fullname}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title *ngIf="member" size="large">{{member.fullname}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-grid *ngIf="member">
+    <ion-row>
+      <ion-col>
+        <div class="ion-text-center">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Fidelogo.svg/1920px-Fidelogo.svg.png"/>
+          <p>Rating: {{member.ranking}}</p>
+          <p>Email: {{member.email}}</p>
+          <p>Birthday: {{member.birthday | date}}</p>
+          <p>Member since: {{member.created_date | date}}</p>
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" color="danger" [routerLink]="['/members/delete', member.member_id]">Delete</ion-button>
+      </ion-col>
+    </ion-row>
+    
+  </ion-grid>
+
+</ion-content>

@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="members"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Delete a member</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Delete a member</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <p>This action can't be undone, so please, verify that you know what you are doing before confirming or clicking the button below. Are you sure you want to delte the member {{member_id}}?.</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>            
+      <ion-col>
+        <ion-button expand="full" color="dark" [routerLink]="['/members/view', member_id]" routerDirection="back">No</ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="full" color="danger" (click)="deleteMember(member_id)">Yes</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
