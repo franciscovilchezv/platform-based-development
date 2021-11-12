@@ -19,4 +19,11 @@ sudo apt update
 sudo apt install mysql-server
 ```
 
+### Update install Mysql > 11 November (maybe some things in configuration may change)
+
+```
+sudo apt update
+sudo apt install default-mysql-server
+```
+
 [Configure the user](./mysql_setup.md) for your MySQL Server
