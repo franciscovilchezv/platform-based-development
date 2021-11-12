@@ -2,7 +2,7 @@
 
 ## Installation
 
-Installation of Ionic CLI
+Installation of Ionic CLI. *Node version recommended: 14.17.6*
 
 ```
 npm install -g @ionic/cli
