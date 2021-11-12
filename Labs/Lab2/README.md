@@ -19,7 +19,7 @@ sudo apt update
 sudo apt install mysql-server
 ```
 
-### Update install Mysql > 11 November (maybe some things in configuration may change)
+### Update: install Mysql > 11 November (maybe some things in configuration may change)
 
 ```
 sudo apt update
