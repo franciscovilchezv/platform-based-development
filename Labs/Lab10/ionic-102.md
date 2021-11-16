@@ -43,3 +43,11 @@ The label supports to include HTML, so we can get something like this:
 </ion-content>
 
 ```
+
+```
+ngOnInit() {
+  this.membersService.getMembers().subscribe(data =>{
+    this.members = data;
+  })
+}
+```
