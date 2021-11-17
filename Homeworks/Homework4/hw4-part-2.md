@@ -1,4 +1,4 @@
-# Parte 2( puntos)
+# Parte 2(15 puntos)
 Deberá [crear un proyecto en Ionic](https://ionicframework.com/getting-started#install) con las siguientes views.
 
 - Home `/`: Creación de una vista de bienvenida. Activable con un tab "Home".
