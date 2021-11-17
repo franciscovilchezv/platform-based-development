@@ -1,4 +1,4 @@
-# Parte 1( puntos)
+# Parte 1(15 puntos)
 
 Deberá crear una archivo `pokemons.sql` con los comandos para crear la base datos, las tablas necesarias e insertar algunos datos para que la base de datos no se inicialice vacía. 
 - Nombre BD: `pokemons`
