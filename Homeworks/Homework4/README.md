@@ -1,8 +1,8 @@
 # Homework 4
 
-El visualizador de pokemones del maestro Pokemón Ash Ketchum se averió! Y lo necesita urgentemente para ver con qué pokemones cuenta. 
+El visualizador de pokemones de la maestra Pokemón Misty se averió! Y lo necesita urgentemente para ver con qué pokemones cuenta. 
 
-Nosotros somos la mano derecha de Ash y por lo tanto debemos hacer una aplicación para que Ash pueda seguir viendo sus pokemones. Esta debe estar realizada con **NodeJS** y **Ionic**. 
+Nosotras(os) somos su mano derecha y por lo tanto debemos hacer una aplicación para que pueda seguir viendo sus pokemones. Esta debe estar realizada con **NodeJS** y **Ionic**. 
 
 La información que desea guardar para cada pokemon es: 
 - Nombre
@@ -10,10 +10,12 @@ La información que desea guardar para cada pokemon es:
 - Categoría
 - Peso
 - Habilidad
-- Tipo
+- Tipo (si el pokemón tiene varios tipos, puede elegir sólo uno de ellos)
 - URL de la imagen del pokemón.
 
 Debe incluir un campo _id_ como **primary key**. 
+
+Puede consultar el siguiente [link](https://www.pokemon.com/us/pokedex) para obtener información de prueba de algunos pokemones.
 
 ## Requerimientos
 
@@ -29,13 +31,24 @@ Debe incluir un campo _id_ como **primary key**.
 
 ## Entregables
 Crear un repositorio en GitHub: 
-- Un archivo `pokemons.sql` para crear la base de datos.
+- Un archivo `pokedex.sql` para crear la base de datos.
 - Un directorio llamado `backend` con su API.
-- Un directorio llamado `frontend` con la aplicación web que consume la API. 
+- Un directorio llamado `frontend` con la aplicación web que consume la API.
+
+Subir el link del repositorio a la plataforma del curso.
 
 ## Calificación
-Para la corrección se realizará los siguiente procedimientos:
+Para la corrección se realizará los siguiente procedimientos en el siguiente orden:
 
-1. Se ejecutará los comandos de su archivo `pokemons.sql`. Dicho archivo será ejecutado desde el `mysql` con el comando `source`.
+1. Se ejecutará los comandos de su archivo `pokedex.sql`. Dicho archivo será ejecutado desde el `mysql` con el comando `source`.
 2. Se entrará a su backend, se ejecutará `npm install` y luego `node index.js` para ejecutar el backend.
+
+De funcionar ambos pasos correctamente, se le otorgará 1 punto.
+
 3. Se entrará al frontend. Se ejecutará `npm install` y luego `ionic serve`. La aplicación deberá contener todas las views indicadas en el requerimiento.
+
+Por cada vista que funcione correctamente (incluida la interacción con el API) se le asignará 1.5 puntos. Si la funcionalidad no es la correcta, se le otorgará 0.5 puntos.
+
+Total: 10 puntos
+
+**La calificación se dentendrá en el momento en que una de los pasos realizados, o alguna de las vistas accedidas retorne un error**
