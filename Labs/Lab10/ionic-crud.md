@@ -88,7 +88,7 @@ Finally, the only thing that will change is the way we show the data.
 Let's create a member when the user presses a `+` icon in the top left of the screen.
 
 ```
-ionic generate page members/members-view
+ionic generate page members/members-create
 ```
 
 And let's rename the default route in the `members-routing`
