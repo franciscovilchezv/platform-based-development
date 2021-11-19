@@ -46,12 +46,12 @@ Para la corrección se realizará los siguiente procedimientos en el siguiente o
 1. Se ejecutará los comandos de su archivo `pokedex.sql`. Dicho archivo será ejecutado desde el `mysql` con el comando `source`.
 2. Se entrará a su backend, se ejecutará `npm install` y luego `node index.js` para ejecutar el backend.
 
-De funcionar ambos pasos correctamente, se le otorgará 2 punto.
+De funcionar ambos pasos correctamente, se le otorgará 1 punto.
 
 3. Se entrará al frontend. Se ejecutará `npm install` y luego `ionic serve`. La aplicación deberá contener todas las views indicadas en el requerimiento.
 
-Por cada vista que funcione correctamente (incluida la interacción con el API) se le asignará 3 puntos. Si la funcionalidad no es la correcta, se le otorgará 1 punto.
+Por cada vista que funcione correctamente (incluida la interacción con el API) se le asignará 1.5 puntos. Si la funcionalidad no es la correcta, se le otorgará 0.5 punto.
 
-Total: 20 puntos
+Total: 10 puntos
 
 **La calificación se dentendrá en el momento en que una de los pasos realizados, o alguna de las vistas accedidas retorne un error**
