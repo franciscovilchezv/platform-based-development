@@ -30,6 +30,9 @@ Puede consultar el siguiente [link](https://www.pokemon.com/us/pokedex) para obt
 29 de Noviembre
 
 ## Entregables
+
+**Realice la creación del proyecto desde cero con `ionic start`. Caso contrario, el trabajo no será calificado.**
+
 Crear un repositorio en GitHub: 
 - Un archivo `pokedex.sql` para crear la base de datos.
 - Un directorio llamado `backend` con su API.
