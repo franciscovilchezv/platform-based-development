@@ -1,4 +1,4 @@
-# Parte 2 (9 puntos)
+# Parte 2 (18 puntos)
 Deberá crear un proyecto en Ionic con las siguientes vistas:
 
 - Home `/`: Creación de una vista de bienvenida. Activable con un tab "Home".
