@@ -1,4 +1,4 @@
-# Parte 1 (2 puntos)
+# Parte 1 (1 punto)
 
 ## Base de datos
 
