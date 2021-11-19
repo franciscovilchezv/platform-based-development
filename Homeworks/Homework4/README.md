@@ -1,4 +1,4 @@
-# Homework 4
+# Homework 4 (PC2)
 
 El visualizador de pokemones de la maestra Pokemón Misty se averió! Y lo necesita urgentemente para ver con qué pokemones cuenta. 
 
