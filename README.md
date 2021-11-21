@@ -210,7 +210,7 @@ Lab content:
   - Building Process
   - CLI
 
-- Details about Project Presentation
+- Details about Web Project Presentation
 
 ### Lab 9
 - Presentación Proyecto - Parte Web
@@ -220,54 +220,64 @@ Lab content:
 - [Slides](./Lectures/Lecture9/Lecture9.pdf)
 
 ### Lecture 10
-- Ionic Components
+- Presentación Proyecto - Parte Web
 
 ### Lab 10
 - Ionic Installation
 - Ionic + Backend
 
-#### Material
-
-- Homework 5
-
 ### Lecture 11
-- Ionic Plugins
-- Cordoba & Capacitor
+- Ionic CRUD con't
 
 ### Lab 11
-- Example on Ionic Plugins
+- Ionic CRUD con't (finalized)
 
 #### Material
 
-- Homework 6
+- [Homework 4](./Homeworks/Homework4/README.md) (grade will be used for PC2)
 
 ### Lecture 12
 
-- More plugins
+- Ionic App Deployment
 
 ### Lab 12
-- PC2
 
-### Lecture 13
-
-- Example on more plugins
-
-### Lab 13
+- Ionic Plugins (Camera & Local Notifications)
 
 #### Material
 
-- Homework 7
+- [Homework 5](./Homeworks/Homework5/README.md)
 
-### Lecture 14
-### Lab 14
+### Lecture 13 (11/30)
+
+In class work: Plugins
 
 #### Material
 
-- Homework 8
+- [Homework 6](./Homeworks/Homework6/README.md)
 
-### Lecture 15
-- Guest Lecture
+### Lab 13 (12/3)
+
+In class work: Adding functionalities (login)
+
+#### Material
+
+- [Homework 7](./Homeworks/Homework7/README.md)
+
+### Lecture 14 (12/7)
+
+- (TBD) Guest Lecture
+
+### Lab 14 (12/10)
+
+- Review Project with students
+
+### Lecture 15 (12/14)
+
+- Office Hours
   
-### Lab 15
-### Lecture 16
+### Lab 15 (12/17)
+- Presentación Proyecto - Parte móvil
+
+### Lecture 16 (12/21)
 - Presentación Proyecto - Parte móvil

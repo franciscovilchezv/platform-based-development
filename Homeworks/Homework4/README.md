@@ -1,4 +1,4 @@
-# Homework 4 (PC2)
+# Homework 4 (PC2) (10 puntos)
 
 El visualizador de pokemones de la maestra Pokemón Misty se averió! Y lo necesita urgentemente para ver con qué pokemones cuenta. 
 
