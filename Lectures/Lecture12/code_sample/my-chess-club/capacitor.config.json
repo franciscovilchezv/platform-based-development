@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "my-chess-club",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

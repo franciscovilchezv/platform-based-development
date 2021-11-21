@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="members"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Add member</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Add member</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <form [formGroup]="membersForm" (ngSubmit)="addChessMember(membersForm.value)">
+          <ion-item>
+            <ion-label position="floating">Full name</ion-label>
+            <ion-input formControlName="fullname" type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Birthday</ion-label>
+            <ion-datetime formControlName="birthday"></ion-datetime>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Ranking</ion-label>
+            <ion-input formControlName="ranking" type="number"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Gender</ion-label>
+            <ion-input formControlName="gender" type="text"></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">E-mail</ion-label>
+            <ion-input formControlName="email" type="text"></ion-input>
+          </ion-item>
+          <ion-row>
+            <ion-col class="ion-text-center">
+              <ion-button expand="full" type="submit">Create</ion-button>
+            </ion-col>
+          </ion-row>
+          
+        </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
