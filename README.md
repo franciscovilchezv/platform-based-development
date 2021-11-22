@@ -40,7 +40,7 @@ Material for Platform Based Development
 
 #### Material
 
-- [Slides](./Lectures/Lecture1/Lecture1.pdf)
+- [Slides](./Lectures/Lecture01/Lecture1.pdf)
 
 ### Lab 1 (10/9)
 
@@ -79,7 +79,7 @@ The following topics will be explained in Windows and MacOS
 
 #### Material
 
-- [Slides](./Lectures/Lecture2/Lecture2.pdf)
+- [Slides](./Lectures/Lecture02/Lecture2.pdf)
 
 ### Lab 2 (17/9)
 
@@ -90,7 +90,7 @@ The following topics will be explained in Windows and MacOS
 #### Material
 
 - [Homework 2 - Parte 1](./Homeworks/Homework2/hw2-part1.md)
-- [Guide](./Labs/Lab2)
+- [Guide](./Labs/Lab02)
 
 ### Lecture 3 (21/9)
 
@@ -101,7 +101,7 @@ Continuation of Lab 2:
 
 #### Material
 
-- [Guide](./Lectures/Lecture3/README.md)
+- [Guide](./Lectures/Lecture03/README.md)
 - [Homework 2 - Parte 2](./Homeworks/Homework2/hw2-part2.md)
 
 ### Lab 3
@@ -118,7 +118,7 @@ Continuation of Lab 2:
 
 #### Material
 
-- [Slides](./Lectures/Lecture4/Lecture4.pdf)
+- [Slides](./Lectures/Lecture04/Lecture4.pdf)
 
 ### Lab 4
 
@@ -128,7 +128,7 @@ Continuation of Lab 2:
 #### Material
 
 - [Homework 3 - Parte 1](./Homeworks/Homework3)
-- [Guide](./Labs/Lab4)
+- [Guide](./Labs/Lab04)
 
 ### Lecture 5
 
@@ -143,8 +143,8 @@ New theory topic:
 #### Material
 
 - [Homework 3 - Parte 2](./Homeworks/Homework3)
-- [Guide](./Lectures/Lecture5)
-- [Slides](./Lectures/Lecture5/Lecture5.pdf)
+- [Guide](./Lectures/Lecture05)
+- [Slides](./Lectures/Lecture05/Lecture5.pdf)
 
 ### Lab 5
 
@@ -160,8 +160,8 @@ Lab content:
 
 #### Material
 
-- [Guide](./Labs/Lab5)
-- [Slides](./Lectures/Lecture5/Lecture5.pdf)
+- [Guide](./Labs/Lab05)
+- [Slides](./Lectures/Lecture05/Lecture5.pdf)
 
 ### Lab 6
 
@@ -169,7 +169,7 @@ Lab content:
 
 #### Material
 
-- [Guide](./Labs/Lab5)
+- [Guide](./Labs/Lab05)
 - Homework: Work on your project
 
 ### Lecture 7
@@ -182,7 +182,7 @@ Lab content:
 
 #### Material
 
-- [Guide](./Labs/Lab7)
+- [Guide](./Labs/Lab07)
 - Homework: Work on your project
 
 ### Lecture 8
@@ -193,7 +193,7 @@ Lab content:
 
 #### Material
 
-- [Guide](./Lectures/Lecture8)
+- [Guide](./Lectures/Lecture08)
 
 ### Lab 8
 - Office Hours
@@ -212,12 +212,12 @@ Lab content:
 
 - Details about Web Project Presentation
 
-### Lab 9
-- Presentación Proyecto - Parte Web
-
 #### Material
 
-- [Slides](./Lectures/Lecture9/Lecture9.pdf)
+- [Slides](./Lectures/Lecture09/Lecture9.pdf)
+
+### Lab 9
+- Presentación Proyecto - Parte Web
 
 ### Lecture 10
 - Presentación Proyecto - Parte Web
@@ -226,8 +226,16 @@ Lab content:
 - Ionic Installation
 - Ionic + Backend
 
+#### Material
+
+- [Guide](./Labs/Lab10/)
+
 ### Lecture 11
 - Ionic CRUD con't
+
+#### Material
+
+- [Guide](./Lectures/Lecture11/)
 
 ### Lab 11
 - Ionic CRUD con't (finalized)
@@ -236,16 +244,25 @@ Lab content:
 
 <!-- ETA: 11/26 -->
 - [Homework 4](./Homeworks/Homework4/README.md) (grade will be used for PC2).
+- [Guide](./Labs/Lab11/)
 
 ### Lecture 12 (11/23)
 
 - Ionic App Deployment
+
+#### Material
+
+- [Guide](./Lectures/Lecture12/)
 
 ### Lab 12 (11/26)
 
 - Ionic Plugins 
   - Camera
   - Local Notifications
+
+#### Material
+
+- [Guide](./Labs/Lab12/)
 
 #### Material
 
