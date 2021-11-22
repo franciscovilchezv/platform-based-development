@@ -234,18 +234,22 @@ Lab content:
 
 #### Material
 
-- [Homework 4](./Homeworks/Homework4/README.md) (grade will be used for PC2)
+<!-- ETA: 11/26 -->
+- [Homework 4](./Homeworks/Homework4/README.md) (grade will be used for PC2).
 
-### Lecture 12
+### Lecture 12 (11/23)
 
 - Ionic App Deployment
 
-### Lab 12
+### Lab 12 (11/26)
 
-- Ionic Plugins (Camera & Local Notifications)
+- Ionic Plugins 
+  - Camera
+  - Local Notifications
 
 #### Material
 
+<!-- ETA: 11/29 -->
 - [Homework 5](./Homeworks/Homework5/README.md)
 
 ### Lecture 13 (11/30)
@@ -254,6 +258,7 @@ In class work: Plugins
 
 #### Material
 
+<!-- ETA: 12/6 -->
 - [Homework 6](./Homeworks/Homework6/README.md)
 
 ### Lab 13 (12/3)

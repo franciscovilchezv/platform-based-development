@@ -6,8 +6,9 @@ Creación de una Aplicación Móvil
 
 ## Requisitos
 
-- Obtener información de la base de datos
-- Navegación entre dos vistas (moverse de una vista web a otra vista web)
+- Mismos requisitos del proyecto 1 pero aplicado a Ionic.
+- Uso de al menos 2 plugins
 
 ## Fecha de entrega
 
+16 de diciembre a las 11:59pm
