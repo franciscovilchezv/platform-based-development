@@ -14,6 +14,12 @@ ionic build
 
 ## iOS
 
+If you are using Xcode for the first time, you may need to install the Xcode Development Tools:
+
+```
+xcode-install
+```
+
 We generate the iOS project
 
 ```
