@@ -288,7 +288,7 @@ In class work: Adding functionalities (login)
 
 ### Lecture 14 (12/7)
 
-- (Confirmed) Guest Lecture: Raul Ramirez, Founder of [Llamafood](https://llamafood.com/)
+- (Confirmed) Guest Lecture: [Raul Ramirez](https://www.linkedin.com/in/raul-ramirez-a6b4a147/), Founder of [Llamafood](https://llamafood.com/)
 
 ### Lab 14 (12/10)
 
