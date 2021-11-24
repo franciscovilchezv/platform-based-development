@@ -125,6 +125,57 @@ npm install @capacitor/camera --save
 ionic g service _services/photo
 ```
 
+We add the following content
+
+```ts
+import { HttpClient } from '@angular/common/http';
+
+import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
+
+// ...
+
+constructor(
+  private http: HttpClient
+) { }
+
+uploadPicture(data) {
+  return this.http.post<any>('http://192.168.0.126:3000/figures', data).toPromise()
+}
+
+async takePicture() {
+  const capturedPhoto = await Camera.getPhoto({
+    resultType: CameraResultType.Base64, 
+    source: CameraSource.Camera, 
+    quality: 100,
+    allowEditing: true
+  });
+
+  const response = await this.uploadPicture({picture: capturedPhoto.base64String})
+  
+  return response;
+}
+```
+
+In the `members-create.page.html` and `members-edit.page.html`:
+
+```html
+<ion-item>
+  <ion-label position="floating">Picture URL</ion-label>
+  <ion-input formControlName="picture_url" type="url"></ion-input>
+  <ion-icon name="camera-outline" slot="end" (click)="openCamera()"></ion-icon>
+</ion-item>
+```
+
+In the `members-create.page.ts` and `members-edit.page.ts`:
+
+```ts
+async openCamera() {
+  const picture_data = await this.photoService.takePicture();
+  
+  this.membersForm.patchValue(picture_data);
+}
+```
+
 If you want to test in your browser some plugins, you need to include the [PWA Elements](https://capacitorjs.com/docs/web/pwa-elements#importing-pwa-elements).
 
 Don't forget to include the permissions in the [configuration file](https://capacitorjs.com/docs/apis/camera#ios) for your Android or iOS project if you are testing it in a Device. Camera functionality is usually not available for testing in simulator.
