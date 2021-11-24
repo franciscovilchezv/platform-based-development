@@ -288,7 +288,7 @@ In class work: Adding functionalities (login)
 
 ### Lecture 14 (12/7)
 
-- (TBD) Guest Lecture
+- (Confirmed) Guest Lecture: Raul Ramirez, Founder of [Llamafood](https://llamafood.com/)
 
 ### Lab 14 (12/10)
 
