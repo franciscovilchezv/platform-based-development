@@ -1,0 +1,7 @@
+{
+  "name": "my-chess-club",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
