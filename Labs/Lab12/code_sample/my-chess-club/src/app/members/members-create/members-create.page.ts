@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { MemberService } from 'src/app/_services/member.service';
 import { PhotoService } from 'src/app/_services/photo.service';
+import { LocalNotifications } from '@capacitor/local-notifications';
 
 @Component({
   selector: 'app-members-create',
@@ -35,6 +36,20 @@ export class MembersCreatePage implements OnInit {
       response => {
         console.log(response);
         this.router.navigate(['/members']);
+
+        LocalNotifications.schedule({
+          notifications: [
+            {
+              id: new Date().getTime(),
+              title: "New member",
+              body: `${values.fullname} is a new member. Don't forget to welcome him`,
+              schedule: {
+                at: new Date(new Date().getTime() + 10000)
+              }
+            }
+          ]
+        })
+
       },
       error => {
         console.error(error);

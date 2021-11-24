@@ -1,4 +1,4 @@
-# Ionic Plugins 101
+# Camera
 
 In this session, we will learn how to use the [Camera plugin](https://capacitorjs.com/docs/apis/camera) with Capacitor.
 
@@ -115,7 +115,7 @@ this.membersForm = this.formBuilder.group({
 });
 ```
 
-## Camera Plugin
+## Capacitor Plugin
 
 ```
 npm install @capacitor/camera --save
