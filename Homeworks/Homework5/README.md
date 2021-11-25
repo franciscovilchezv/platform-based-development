@@ -39,4 +39,4 @@ Subir a la plataforma del curso el link de dicho repositorio.
 
 ## Fecha de entrega
 
-Lunes 29 de noviembre hasta las 11:59pm
+Jueves 2 de diciembre hasta las 11:59pm
