@@ -21,7 +21,7 @@
     <ion-row>
       <ion-col>
         <div class="ion-text-center">
-          <img *ngIf="member.picture_url" [src]="'http://192.168.0.126:3000/' + member.picture_url"/>
+          <img *ngIf="member.picture_url" [src]="getPictureUrl(member.picture_url)"/>
           <p>Rating: {{member.ranking}}</p>
           <p>Email: {{member.email}}</p>
           <p>Birthday: {{member.birthday | date}}</p>

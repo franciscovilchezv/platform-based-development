@@ -1,7 +1,8 @@
 var express = require('express');
 var app = express();
 
-var mysql = require('mysql');
+var db = require('./db.js')
+
 var fs = require("fs");
 
 var picturesDirectory = 'figures/';
@@ -12,49 +13,18 @@ app.use(cors());
 app.use(express.json({limit: '50mb'}));
 
 app.get('/members/:member_id', function(req, res){
-  // Step 0: Definir la conexion a la BD
-  var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'utec',
-    password: '1234567890',
-    database: 'my_chess_club'
-  });
-
-  // Step 1: Establecer la conexion
-  connection.connect();
-
-  // Step 2: Mandar el query
   var myQuery = " SELECT member_id, fullname, DATE_FORMAT(birthday, '%Y-%m-%d') as birthday, ranking, " +
                 " gender, email, picture_url, created_date, modified_date " +
                 " FROM member " +
                 " WHERE member_id = ? ";
   var myValues = [req.params.member_id];
 
-  connection.query(myQuery, myValues, function(error, results, fields){
-    // Ya tengo el resultado del query en `results`. Si hay algun error, llegará en `error`
-    if (error) throw error;
-    
-    // Step 3: Procesar el resultado de la BD
+  db.query(myQuery, myValues, function(results){
     res.send(results[0]);
-
-    // Step 4: Cerrar la conexion
-    connection.end();
   });
 });
 
 app.get('/members', function(req, res){
-  // Step 0: Definir la conexion a la BD
-  var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'utec',
-    password: '1234567890',
-    database: 'my_chess_club'
-  });
-
-  // Step 1: Establecer la conexion
-  connection.connect();
-
-  // Step 2: Mandar el query
   var myQuery = " SELECT member_id, fullname, birthday, ranking, " +
                 " gender, email, picture_url, created_date, modified_date " +
                 " FROM member " +
@@ -76,93 +46,36 @@ app.get('/members', function(req, res){
     myValues.push(req.query.gender);
   }
 
-  connection.query(myQuery, myValues, function(error, results, fields){
-    // Ya tengo el resultado del query en `results`. Si hay algun error, llegará en `error`
-    if (error) throw error;
-    
-    // Step 3: Procesar el resultado de la BD
+  db.query(myQuery, myValues, function(results){
     res.send(results);
-
-    // Step 4: Cerrar la conexion
-    connection.end();
   });
 });
 
 
 app.post('/members', function(req, res){
-  // Step 0: Definir la conexion a la BD
-  var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'utec',
-    password: '1234567890',
-    database: 'my_chess_club'
-  });
-
-  // Step 1: Establecer la conexion
-  connection.connect();
-
-  // ;Step 2: Mandar el query
   var myQuery = " INSERT INTO member (fullname, birthday, ranking, " +
                 " gender, email, picture_url, created_date, modified_date ) " +
                 " VALUES (?, ?, ?, ?, ?, ?, NOW(), NOW()); ";
 
   var myValues = [req.body.fullname, req.body.birthday, req.body.ranking, req.body.gender, req.body.email, req.body.picture_url ];
 
-  connection.query(myQuery, myValues, function(error, results, fields){
-    // Ya tengo el resultado del query en `results`. Si hay algun error, llegará en `error`
-    if (error) throw error;
-    
-    // Step 3: Procesar el resultado de la BD
+  db.query(myQuery, myValues, function(results){
     res.send(results);
-
-    // Step 4: Cerrar la conexion
-    connection.end();
   });
 });
 
 app.delete('/members/:member_id', function(req, res){
-  // Step 0: Definir la conexion a la BD
-  var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'utec',
-    password: '1234567890',
-    database: 'my_chess_club'
-  });
-
-  // Step 1: Establecer la conexion
-  connection.connect();
-
-  // ;Step 2: Mandar el query
   var myQuery = " DELETE FROM member " +
                 " WHERE member_id = ?; ";
 
   var myValues = [ req.params.member_id ];
 
-  connection.query(myQuery, myValues, function(error, results, fields){
-    // Ya tengo el resultado del query en `results`. Si hay algun error, llegará en `error`
-    if (error) throw error;
-    
-    // Step 3: Procesar el resultado de la BD
+  db.query(myQuery, myValues, function(results){
     res.send(results);
-
-    // Step 4: Cerrar la conexion
-    connection.end();
   });
 });
 
 app.put('/members/:member_id', function(req, res){
-  // Step 0: Definir la conexion a la BD
-  var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'utec',
-    password: '1234567890',
-    database: 'my_chess_club'
-  });
-
-  // Step 1: Establecer la conexion
-  connection.connect();
-
-  // Step 2: Mandar el query
   var myQuery = " UPDATE member SET modified_date = NOW() ";
   var myValues = [ ];
   
@@ -199,77 +112,32 @@ app.put('/members/:member_id', function(req, res){
   myQuery += " WHERE member_id = ? "
   myValues.push(req.params.member_id);
 
-  connection.query(myQuery, myValues, function(error, results, fields){
-    // Ya tengo el resultado del query en `results`. Si hay algun error, llegará en `error`
-    if (error) throw error;
-    
-    // Step 3: Procesar el resultado de la BD
+  db.query(myQuery, myValues, function(results){
     res.send(results);
-
-    // Step 4: Cerrar la conexion
-    connection.end();
   });
 });
 
 app.post('/users', function(req, res){
-  // Step 0: Definir la conexion a la BD
-  var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'utec',
-    password: '1234567890',
-    database: 'my_chess_club'
-  });
-
-  // Step 1: Establecer la conexion
-  connection.connect();
-
-  // Step 2: Mandar el query
   var myQuery = " INSERT INTO user (username, password, modified_date, created_date) " +
                 " VALUES (?, MD5(?), NOW(), NOW()) ";
   
   var myValues = [ req.body.username, req.body.password ];
-  
-  connection.query(myQuery, myValues, function(error, results, fields){
-    // Ya tengo el resultado del query en `results`. Si hay algun error, llegará en `error`
-    if (error) throw error;
-    
-    // Step 3: Procesar el resultado de la BD
-    res.send(results);
 
-    // Step 4: Cerrar la conexion
-    connection.end();
+  db.query(myQuery, myValues, function(results){
+    res.send(results);
   });
 });
 
 app.post('/login', function(req, res){
-  // Step 0: Definir la conexion a la BD
-  var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'utec',
-    password: '1234567890',
-    database: 'my_chess_club'
-  });
-
-  // Step 1: Establecer la conexion
-  connection.connect();
-
-  // Step 2: Mandar el query
   var myQuery = " SELECT id, username " +
                 " FROM user " +
                 " WHERE username = ? " +
                 " AND password = MD5(?) ";
   
   var myValues = [ req.body.username, req.body.password ];
-  
-  connection.query(myQuery, myValues, function(error, results, fields){
-    // Ya tengo el resultado del query en `results`. Si hay algun error, llegará en `error`
-    if (error) throw error;
-    
-    // Step 3: Procesar el resultado de la BD
-    res.send(results[0]);
 
-    // Step 4: Cerrar la conexion
-    connection.end();
+  db.query(myQuery, myValues, function(results){
+    res.send(results[0]);
   });
 });
 

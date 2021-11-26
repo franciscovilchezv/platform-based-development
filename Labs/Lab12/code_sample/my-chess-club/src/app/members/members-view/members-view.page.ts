@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { MemberService } from 'src/app/_services/member.service';
 
+import { environment } from 'src/environments/environment';
+
 @Component({
   selector: 'app-members-view',
   templateUrl: './members-view.page.html',
@@ -31,6 +33,13 @@ export class MembersViewPage implements OnInit {
         )
       }
     );
+  }
+
+  getPictureUrl(picture_url) {
+    if (picture_url.includes("http://") || picture_url.includes("https://")){
+      return picture_url;  
+    }
+    return environment.apiUrl + "/" + picture_url;
   }
 
 }

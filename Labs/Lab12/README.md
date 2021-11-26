@@ -6,3 +6,5 @@ We will learn:
 
 - [Camera](./camera_plugin.md)
 - [Local Notifications](./notifications_plugin.md)
+
+Additional we will make some [refactors](./refactoring.md) to our app.

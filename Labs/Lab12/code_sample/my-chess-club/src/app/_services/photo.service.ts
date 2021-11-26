@@ -3,6 +3,8 @@ import { Injectable } from '@angular/core';
 
 import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
 
+import { environment } from 'src/environments/environment';
+
 @Injectable({
   providedIn: 'root'
 })
@@ -13,7 +15,7 @@ export class PhotoService {
   ) { }
 
   uploadPicture(data) {
-    return this.http.post<any>('http://192.168.0.126:3000/figures', data).toPromise()
+    return this.http.post<any>(`${environment.apiUrl}/figures`, data).toPromise()
   }
 
   async takePicture() {
