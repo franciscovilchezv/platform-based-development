@@ -27,7 +27,7 @@ Puede consultar el siguiente [link](https://www.pokemon.com/us/pokedex) para obt
 
 ## Fecha de entrega
 
-29 de Noviembre
+29 de Noviembre hasta las 11:59pm
 
 ## Entregables
 
