@@ -1,4 +1,4 @@
-# Homework 5 (5 puntos)
+# Homework 5 (10 puntos)
 
 Deploye la applicación en Ionic [desarrollada en clase](../../Labs/Lab10/code_sample) en *una* de las siguientes opciones:
 
@@ -17,7 +17,7 @@ Tome un screenshot del app mostrando las siguientes funcionalidades:
 
 Adicionalmente, incluir un screenshot del proyecto en Android Studio o XCode generado por el Ionic (`ide.png`).
 
-## Entregables (0.5 c/imágen)
+## Entregables (1 c/imágen)
 
 Crear un repositorio que contenga:
 
