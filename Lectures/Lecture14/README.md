@@ -4,7 +4,7 @@ En esta clase, nuestro invitado Raul Ramírez nos contará sobre su experiencia 
 
 ## Raul Ramirez
 
-<p align="center"><a href="url"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQEh3xkc-kPUDA/profile-displayphoto-shrink_800_800/0/1582256162728?e=1643846400&v=beta&t=jK9N5vDqXNb-1ws07TfC2ElCG2mHGWZu4xqLWMSiV5c" height="auto" width="200" style="border-radius:50%"></a></p>
+<p align="center"><a href="url"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQEh3xkc-kPUDA/profile-displayphoto-shrink_800_800/0/1582256162728?e=1643846400&v=beta&t=jK9N5vDqXNb-1ws07TfC2ElCG2mHGWZu4xqLWMSiV5c" height="auto" width="300" style="border-radius:50%"></a></p>
 
 ### Education
 
