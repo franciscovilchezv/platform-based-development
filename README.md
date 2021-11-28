@@ -262,37 +262,45 @@ Lab content:
 
 #### Material
 
+<!-- ETA: 12/2 -->
 - [Guide](./Labs/Lab12/)
-
-#### Material
-
-<!-- ETA: 11/29 -->
 - [Homework 5](./Homeworks/Homework5/README.md)
 
 ### Lecture 13 (11/30)
 
-In class work: Plugins
+- Testing Camera plugin in a mobile device
+- Local Notifications
 
 #### Material
 
-<!-- ETA: 12/6 -->
-- [Homework 6](./Homeworks/Homework6/README.md)
+- [Guide](./Lectures/Lecture13/)
 
 ### Lab 13 (12/3)
 
-In class work: Adding functionalities (login)
+- Project 2 details
+- In class work: Homework 6 (Ionic Plugins)
 
 #### Material
-
-- [Homework 7](./Homeworks/Homework7/README.md)
+<!-- ETA: 12/6 -->
+- [Homework 6](./Homeworks/Homework6/README.md)
+- [Project 2 requirements](./Project/Project2/README.md)
 
 ### Lecture 14 (12/7)
 
-- (Confirmed) Guest Lecture: [Raul Ramirez](https://www.linkedin.com/in/raul-ramirez-a6b4a147/), Founder of [Llamafood](https://llamafood.com/)
+- Guest Lecture: [Raul Ramirez](https://www.linkedin.com/in/raul-ramirez-a6b4a147/), Founder of [Llamafood](https://llamafood.com/).
+
+#### Material
+
+- [Summary](./Lectures/Lecture14/README.md)
+- [Extra Credit](./Homeworks/ExtraCredit1/README.md)
 
 ### Lab 14 (12/10)
 
-- Review Project with students
+- Review Project progress/plan with students.
+
+<!-- #### Material
+
+- [Homework 7](./Homeworks/Homework7/README.md) -->
 
 ### Lecture 15 (12/14)
 
