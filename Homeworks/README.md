@@ -2,7 +2,7 @@
 
 ## EC 1 (20 puntos)
 
-- Homework 1 (5 puntos)
+- [Homework](./Homework1) 1 (5 puntos)
 - Homework 2 (10 puntos)
 - Homework 3 (5 puntos)
 
