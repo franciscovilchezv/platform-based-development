@@ -1,4 +1,4 @@
-# Homework 7 (10 puntos)
+# Homework 7 (No realizar)
 
 Misión: Agregar un login a su aplicación de pokemones desarrollada en la [PC2](../Homework4/README.md). De esta manera, el usuario que se logee solo podrá ver sus propios pokemones.
 

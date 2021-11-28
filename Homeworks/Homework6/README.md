@@ -1,4 +1,4 @@
-# Homework 6 (5 puntos)
+# Homework 6 (10 puntos)
 
 Misión: Utilizar la cámara del dispositivo para que el usuario pueda tomar una foto a su pokemón al momento de agregar un nuevo pokemón en su proyecto realizado en la [HW6](../Homework6/README.md).
 
