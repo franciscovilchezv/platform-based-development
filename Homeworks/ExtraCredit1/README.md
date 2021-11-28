@@ -13,3 +13,7 @@ Esta tarea le permitirá recuperar obtener hasta *2 puntos extras* en cualquiera
 - Reflexión/comentario sobre la respuesta.
 
 Si realizó más de una pregunta, incluir el mismo contenido para la otra pregunta.
+
+Recibirá 1 punto por cada pregunta, hasta 2 puntos.
+
+No es necesario mencionar que puede realizar todas las preguntas que desee durante el Guest Lecture.
