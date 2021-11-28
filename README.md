@@ -15,24 +15,18 @@ Material for Platform Based Development
 #### Content
 
 - Client - Server Model
-
 - Web Pages vs. Web Applications
-
 - Components in a Web Application
   - Front End
   - Back End
   - Database
-
 - Illustrative Examples of a Web Application
-
 - Explanation of components in a Mobile Application
-
 - FrontEnd (Web)
   - HTML
   - CSS
   - JS
 - FrontEnd Frameworks
-
 - BackEnd
   - Server Language
   - API (More on Lecture 6)
