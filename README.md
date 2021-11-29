@@ -257,13 +257,15 @@ Lab content:
 
 <!-- ETA: 12/2 -->
 - [Guide](./Labs/Lab12/)
-- [Homework 5](./Homeworks/Homework5/README.md)
 
 ### Lecture 13 (11/30)
 
 - Testing Camera plugin in a mobile device
 - New plugin: Local Notifications
 - Refactoring
+
+#### Material
+- [Homework 5](./Homeworks/Homework5/README.md)
 
 #### Material
 
