@@ -51,7 +51,7 @@ The following topics will be explained in Windows and MacOS
 #### Material
 
 - [Homework 1](./Homeworks/Homework1/README.md)
-- [Guide](./Labs/Lab1)
+- [Guide](./Labs/Lab01)
 
 ### Lecture 2 (14/9)
 
