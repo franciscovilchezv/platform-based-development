@@ -262,7 +262,7 @@ Lab content:
 ### Lecture 13 (11/30)
 
 - Testing Camera plugin in a mobile device
-- Local Notifications
+- New plugin: Local Notifications
 - Refactoring
 
 #### Material
