@@ -37,7 +37,7 @@ Su página web debe de (al menos), tener la siguiente estructura:
 
 Es libre llevar el diseño de su página web más allá de lo solicitado.
 
-Finalmente, publique su página web usando [GitHub pages](../../Labs/Lab2/github_page_101.md) (-50% de puntos si no lo publica).
+Finalmente, publique su página web usando [GitHub pages](../../Labs/Lab02/github_page_101.md) (-50% de puntos si no lo publica).
 
 La manera de desarrollar la tarea es libre con tal que cumpla **visualmente** con los requisitos.
 
