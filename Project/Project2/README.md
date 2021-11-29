@@ -66,7 +66,7 @@ El equipo (uno o más representantes) presentará el proyecto el día **16 de di
 La presentación (10 minutos) deberá incluir:
 
 - Título del proyecto y motivación (1 minuto)
-- Funcionalidades: Listar las 8 vistas web (urls), los 8 servicios web (urls + http method) y la funcionalidad que realiza. (1 minuto).
+- Funcionalidades: Listar las 6 vistas web (urls), los 6 servicios web (urls + http method) y la funcionalidad que realiza. (1 minuto).
 - Plugins: Mencionar los plugins que utilizará y con que propósito. (1 minuto)
 - DEMO del proyecto (4 minutos)
 - Preguntas al grupo (3 minutos)
