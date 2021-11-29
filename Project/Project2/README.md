@@ -1,4 +1,4 @@
-# Proyecto 2 (TBD)
+# Proyecto 2
 
 ## Goal
 
