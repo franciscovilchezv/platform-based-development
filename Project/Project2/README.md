@@ -44,7 +44,7 @@ Puede encontrar un ejemplo del README en el siguiente [link](./README-ejemplo.md
 
 *Dicho link debe ser subido a más tardar el 16 de diciembre a las 23:59pm*
 
-Si desea, puede utilizar el mismo repositorio que utilizó para el proyecto 1.
+*Si desea, puede utilizar el mismo repositorio que utilizó para el proyecto 1.*
 
 ### Autocalificación grupal
 
