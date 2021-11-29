@@ -38,7 +38,9 @@ Crear un repositorio en GitHub:
 - Un directorio llamado `backend` con su API.
 - Un directorio llamado `frontend` con la aplicación web que consume la API.
 
-Subir el link del repositorio a la plataforma del curso.
+Subir el link del repositorio a la plataforma del curso. 
+
+*Asegurarse de eliminar el `.git` generado por el Ionic en la carpeta del proyecto de Ionic. De no realizarlo, dicha carpeta no va a ser incluida al mandar los cambios al repositorio.*
 
 ## Calificación
 Para la corrección se realizará los siguiente procedimientos en el siguiente orden:
