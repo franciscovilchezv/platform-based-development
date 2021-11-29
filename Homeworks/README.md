@@ -12,3 +12,8 @@
 - [Homework 6](./Homework6) (10 puntos)
 
 *Homework 4 was used as PC2*
+
+## Extra Credit
+
+- [Extra Credit 1](./ExtraCredit1) (+1 punto)
+- [Extra Credit 2](./ExtraCredit2) (+1 punto)
