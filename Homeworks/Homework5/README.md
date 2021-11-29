@@ -17,7 +17,7 @@ Tome un screenshot del app mostrando las siguientes funcionalidades:
 
 Adicionalmente, incluir un screenshot del proyecto en Android Studio o XCode generado por el Ionic (`ide.png`).
 
-## Entregables (1 c/imágen)
+## Entregables (1pto c/imágen)
 
 Crear un repositorio que contenga:
 
