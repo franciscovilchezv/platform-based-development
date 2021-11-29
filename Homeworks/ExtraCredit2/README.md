@@ -19,7 +19,7 @@ Para contribuir al curso con sus pull requests, deberá seguir los siguientes pa
 3. Realizar los cambios necesarios a su fork. Sus mensajes en sus commits deberán empezar con `#n: `, donde `n` es el número del issue que registró en el paso 1. Por ejemplo:
 
 ```
-git commit -am "#3: Typo in 'platform' word"
+git commit -am "#3: Fixing typo in 'platform' word"
 ```
 
 4. Mandar un pull request para que incluyan su modificación en el proyecto.
