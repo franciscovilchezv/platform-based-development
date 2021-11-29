@@ -265,11 +265,8 @@ Lab content:
 - Refactoring
 
 #### Material
-- [Homework 5](./Homeworks/Homework5/README.md)
-
-#### Material
-
 - [Guide](./Lectures/Lecture13/)
+- [Homework 5](./Homeworks/Homework5/README.md)
 
 ### Lab 13 (12/3)
 
