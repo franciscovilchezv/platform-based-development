@@ -252,7 +252,6 @@ Lab content:
 
 - Ionic Plugins 
   - Camera
-  - Local Notifications
 
 #### Material
 
@@ -264,6 +263,7 @@ Lab content:
 
 - Testing Camera plugin in a mobile device
 - Local Notifications
+- Refactoring
 
 #### Material
 
