@@ -81,7 +81,7 @@ Código de vestimenta: Libre
 
 Se lanzará [dadito](https://www.google.com/search?q=Roll%20a%20die&stick=H4sIAAAAAAAAAOOwfcRoxC3w8sc9YSnNSWtOXmNU5uILyM-pzEhNKUrMcclMThUS5OLMK82NL85MSS0WYpFiEmDjAQAnwJaNNwAAAA), empezando con los grupos con más de 1 integrante.
 
-### 16 de diciembre
+### 17 de diciembre
 
 - Grupo de la suerte (777) [WO]
 - Grupo 4
