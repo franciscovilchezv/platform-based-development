@@ -260,23 +260,26 @@ Lab content:
 
 ### Lecture 13 (11/30)
 
-- Testing Camera plugin in a mobile device
-- New plugin: Local Notifications
-- Refactoring
+- Project 2 details
+- Explained HW5
+- Explained ExtraCredit1
 
 #### Material
 - [Guide](./Lectures/Lecture13/)
 - [Homework 5](./Homeworks/Homework5/README.md)
+- [Project 2 requirements](./Project/Project2/README.md)
 
 ### Lab 13 (12/3)
 
-- Project 2 details
+- Testing Camera plugin in a mobile device
+- New plugin: Local Notifications
+- Refactoring
 - In class work: Homework 6 (Ionic Plugins)
 
 #### Material
 <!-- ETA: 12/6 -->
 - [Homework 6](./Homeworks/Homework6/README.md)
-- [Project 2 requirements](./Project/Project2/README.md)
+
 
 ### Lecture 14 (12/7)
 
