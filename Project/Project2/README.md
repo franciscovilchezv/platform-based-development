@@ -23,6 +23,8 @@ Adicionalmente, debe de cubrir los siguientes requisitos:
 - Uso de al menos 2 plugins de Ionic
 - Deploy de la app en un dispositivo móvil.
 
+*Nota: Si no cuenta con un dispositivo móvil, realizar al menos el uso del plugin de la camara (u otro testeable en browser). Y la calificación del otro plugin se hará a través de preguntas*
+
 ## Entregables
 
 ### Link del repositorio
