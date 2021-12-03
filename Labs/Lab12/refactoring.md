@@ -83,7 +83,7 @@ app.get('/members/:member_id', function(req, res){
 });
 ```
 
-## AngularJS
+## Ionic
 
 `environment.ts` and `environment.prod.ts`
 
