@@ -2,7 +2,7 @@ Student's grades at 50% of the course (i.e. maximum amount of possible points is
 
 ---
 Son unos cracks
-- 50 
+- 50 🥳
 - 48.75
 - 48
 - 46.5
