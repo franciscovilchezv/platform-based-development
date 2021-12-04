@@ -12,7 +12,7 @@ Misión: Utilizar la cámara del dispositivo para que el usuario pueda tomar una
 
 - Al presionar dicho botón, se abrirá la cámara del dispositivo. Al tomar la foto, la imagen se guardará en el servidor. Dicha imagen será utilizada como imagen del pokemon.
 
-- Una vez tomada la foto, se retornará al formulario en el que estaba creando el pokemon con la url de la imagen ya ingresada en el respectivo input.
+- Una vez tomada la foto, se retornará al formulario en el que estaba creando el pokemon con la ubicación de la imagen ya ingresada en el respectivo input.
 
 - Una vez guardado el pokemon, se podrá ver la información del pokemon en la página de `ver pokemon`. En ella, aparecerá la imagen que fue tomada.
 
