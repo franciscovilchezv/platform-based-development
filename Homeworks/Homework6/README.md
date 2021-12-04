@@ -4,7 +4,7 @@
 
 Misión: Utilizar la cámara del dispositivo para que el usuario pueda tomar una foto a su pokemón al momento de agregar un nuevo pokemón en su proyecto realizado en la [HW6](../Homework6/README.md).
 
-*PD: En caso no haya desarrollado la tarea 6, le bastará con tener una vista para listar pokemones, crear pokemones y ver un pokemón*
+*PD: En caso no haya desarrollado la tarea 4, le bastará con tener una vista para listar pokemones, crear pokemones y ver un pokemón*
 
 ## Requisitos específicos
 
@@ -22,4 +22,4 @@ Entregar el link de un repositorio privado con el código compartido a los sigui
 - @franciscovilchezv
 - @renatoseb
 
-Lunes 6 de diciembre hasta las 11:59pm
+Lunes 9 de diciembre hasta las 11:59pm
