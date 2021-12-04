@@ -16,6 +16,10 @@ Misión: Utilizar la cámara del dispositivo para que el usuario pueda tomar una
 
 - Una vez guardado el pokemon, se podrá ver la información del pokemon en la página de `ver pokemon`. En ella, aparecerá la imagen que fue tomada.
 
-## Fecha de entrega
+## Entregable
+
+Entregar el link de un repositorio privado con el código compartido a los siguientes usuarios:
+- @franciscovilchezv
+- @renatoseb
 
 Lunes 6 de diciembre hasta las 11:59pm
