@@ -1,4 +1,4 @@
-Student's grades at 50% of the course:
+Student's grades at 50% of the course (i.e. maximum amount of possible points is 50 so far) :
 
 ---
 Son unos cracks
