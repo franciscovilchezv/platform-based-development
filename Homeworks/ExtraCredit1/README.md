@@ -15,3 +15,7 @@ Esta tarea le permitirá recuperar obtener hasta *1 punto extras* en cualquiera 
 Recibirá 1 punto por la pregunta.
 
 No es necesario mencionar que puede realizar todas las preguntas que desee durante el Guest Lecture.
+
+## Fecha límite
+
+7 de diciembre hasta las 11:59pm
