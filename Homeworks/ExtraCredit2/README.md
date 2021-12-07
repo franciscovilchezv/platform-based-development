@@ -12,7 +12,7 @@ Para contribuir al curso con sus pull requests, deberá seguir los siguientes pa
 
 1. [Crear un issue](https://github.com/franciscovilchezv/platform-based-development/issues) en el cual detalle el error encontrado o mejora que realizará. Incluir un título adecuado y una descripción del problema.
 
-*Esperar a que el dueño/encargado del proyecto le diga que puede proceder a arreglar el issue que menciona, ya que probablemente el autor no considera que sea necesario realizar el cambio que menciona.*
+*Esperar a que el dueño/encargado del proyecto (i.e. @franciscovilchezv) le diga que puede proceder a arreglar el issue que menciona, ya que probablemente el autor no considera que sea necesario realizar el cambio que menciona.*
 
 2. Realizar un fork al [proyecto](https://github.com/franciscovilchezv/platform-based-development).
 
