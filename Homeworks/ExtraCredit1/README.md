@@ -1,6 +1,6 @@
-# Extra Credit 1 (Incomplete)
+# Extra Credit 1
 
-Esta tarea le permitirá recuperar obtener hasta *2 puntos extras* en cualquiera de las asignaciones realizadas en el curso.
+Esta tarea le permitirá recuperar obtener hasta *1 punto extras* en cualquiera de las asignaciones realizadas en el curso.
 
 ## ¿Qué debo de hacer?
 
@@ -12,8 +12,6 @@ Esta tarea le permitirá recuperar obtener hasta *2 puntos extras* en cualquiera
 - Respuesta recibida
 - Reflexión/comentario sobre la respuesta.
 
-Si realizó más de una pregunta, incluir el mismo contenido para la otra pregunta.
-
-Recibirá 1 punto por cada pregunta, hasta 2 puntos.
+Recibirá 1 punto por la pregunta.
 
 No es necesario mencionar que puede realizar todas las preguntas que desee durante el Guest Lecture.
