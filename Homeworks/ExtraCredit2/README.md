@@ -2,9 +2,9 @@
 
 Durante el desarrollo de este curso, probablemente ha notado muchos errores en los materiales subidos al [repositorio de Github del curso](https://github.com/franciscovilchezv/platform-based-development).
 
-Goal: Mandar un Pull request con la corrección a alguno de los errores que están presentes en el repositorio del curso. Puede ir desde algún error de ortografía, detallar mejor algún punto en específico, etc...
+## Mision
 
-Los Pull Requests serán corregidos en el orden en que son recibidos. Por lo tanto, si usted arregla algún punto que alguien más se le adelantó, su pull request será rechazado. Sin embargo, puede seguir mandando otros pull requests si desea.
+Mandar un Pull request con la corrección a alguno de los errores que están presentes en el repositorio del curso. Puede ir desde algún error de ortografía, detallar mejor algún punto en específico, etc...
 
 ## Contribution process
 
@@ -23,3 +23,9 @@ git commit -am "#3: Fixing typo in 'platform' word"
 ```
 
 4. Mandar un pull request para que incluyan su modificación en el proyecto.
+
+## Puntaje
+
+Se le otorgará *1 punto extra* en cualquiera de las asignaciones realizadas en el curso.
+
+Los Pull Requests serán corregidos en el orden en que son recibidos. Por lo tanto, si usted arregla algún punto, y alguien más se le adelantó con el mismo *fix*, su pull request tendrá que ser rechazado. Sin embargo, puede seguir mandando otros pull requests si desea.
