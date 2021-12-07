@@ -29,3 +29,7 @@ git commit -am "#3: Fixing typo in 'platform' word"
 Se le otorgará *1 punto extra* en cualquiera de las asignaciones realizadas en el curso.
 
 Los Pull Requests serán corregidos en el orden en que son recibidos. Por lo tanto, si usted arregla algún punto, y alguien más se le adelantó con el mismo *fix*, su pull request tendrá que ser rechazado. Sin embargo, puede seguir mandando otros pull requests si desea.
+
+## Fecha Límite
+
+Se revisarán los Pull Requests enviados hasta el 21 de diciembre a las 11:59pm
