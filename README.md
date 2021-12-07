@@ -292,7 +292,8 @@ Lab content:
 
 ### Lab 14 (12/10)
 
-- Review Project progress/plan with students.
+- Students will work in their own groups the Homework 6.
+- Will review project progress with each group.
 
 <!-- #### Material
 
