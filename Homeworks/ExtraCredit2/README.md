@@ -24,7 +24,7 @@ git commit -am "#3: Fixing typo in 'platform' word"
 
 4. Mandar un pull request para que incluyan su modificación en el proyecto.
 
-*PD: Puede darle `Watch` y/o `Star` al proyecto para estar al tanto del estado de su Pull Requests. Caso contrario, revisarlo periódicamente.*
+*PD: Puede darle `Watch` y/o `Star` al proyecto para estar al tanto del estado de su Pull Requests. Caso contrario, revisarlo periódicamente ya que es posible que se solicite modificaciones al cambio que envió.*
 
 ## Puntaje
 
