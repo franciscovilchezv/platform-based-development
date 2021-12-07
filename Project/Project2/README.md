@@ -9,7 +9,7 @@ Creación de una Aplicación Móvil
 Su proyecto debe tener los mismos requisitos del proyecto 1 pero aplicado a Ionic:
 
 - Uso de una base de datos MySQL para guardar información necesaria del proyecto.
-- Desarrolo de una API en NodeJS usando Express framework.
+- Desarrollo de una API en NodeJS usando Express framework.
 - Creación de una Aplicación móvil usando Ionic.
 
 Requisitos específicos:
@@ -20,10 +20,10 @@ Requisitos específicos:
 
 Adicionalmente, debe de cubrir los siguientes requisitos:
 
-- Uso de al menos 2 plugins de Ionic
+- Uso de al menos 2 plugins de Ionic.
 - Deploy de la app en un dispositivo móvil.
 
-*Nota: Si no cuenta con un dispositivo móvil, realizar al menos el uso del plugin de la camara (u otro testeable en browser). Y la calificación del otro plugin se hará a través de preguntas*
+*Nota: Si no cuenta con un dispositivo móvil, realizar al menos el uso del plugin de la cámara (u otro testeable en browser). Y la calificación del otro plugin se hará a través de preguntas*
 
 ## Entregables
 
@@ -44,13 +44,13 @@ El link del repositorio del proyecto debe ser subido al canvas. Dicho repositori
   
 Puede encontrar un ejemplo del README en el siguiente [link](./README-ejemplo.md).
 
-*Dicho link debe ser subido a más tardar el 16 de diciembre a las 23:59pm*
+*Dicho link debe ser subido a más tardar el 21 de diciembre a las 23:59pm*
 
 *Si desea, puede utilizar el mismo repositorio que utilizó para el proyecto 1.*
 
 ### Autocalificación grupal
 
-En el canvas del curso, hay una tarea llamada Proyecto 2. En ella deberá poner la lista de todos los integrates y un valor del 0-10 indicando qué tan comprometido estuvo con el proyecto. 
+En el canvas del curso, hay una tarea llamada Proyecto 2. En ella deberá poner la lista de todos los integrantes y un valor del 0-10 indicando qué tan comprometido estuvo con el proyecto. 
 
 - 0: nada comprometido
 - 10: totalmente comprometido
@@ -59,11 +59,11 @@ En el canvas del curso, hay una tarea llamada Proyecto 2. En ella deberá poner 
 
 Puede encontrar un ejemplo en el siguiente [link](../Project1/autocalificacion.md).
 
-*La autocalificación grupal debe ser subida a más tardar el 16 de diciembre a las 23:59pm.* De lo contrario, usted no obtendrá nota alguna por el trabajo.
+*La autocalificación grupal debe ser subida a más tardar el 21 de diciembre a las 23:59pm.* De lo contrario, usted no obtendrá nota alguna por el trabajo.
 
 ## Presentación
 
-El equipo (uno o más representantes) presentará el proyecto el día **16 de diciembre y el 21 de diciembre del 2021**.
+El equipo (uno o más representantes) presentará el proyecto el día **21 de diciembre**.
 
 La presentación (10 minutos) deberá incluir:
 
@@ -73,7 +73,7 @@ La presentación (10 minutos) deberá incluir:
 - DEMO del proyecto (4 minutos)
 - Preguntas al grupo (3 minutos)
 
-Se le sugiere a los integrantes del grupo mostrar su cámara durante la presentación **sólo si es que es posible**.
+Se le sugiere a los integrantes del grupo mostrar su cámara durante la presentación **solo si es que es posible**.
 
 Código de vestimenta: Libre
 
@@ -81,7 +81,7 @@ Código de vestimenta: Libre
 
 Se lanzará [dadito](https://www.google.com/search?q=Roll%20a%20die&stick=H4sIAAAAAAAAAOOwfcRoxC3w8sc9YSnNSWtOXmNU5uILyM-pzEhNKUrMcclMThUS5OLMK82NL85MSS0WYpFiEmDjAQAnwJaNNwAAAA), empezando con los grupos con más de 1 integrante.
 
-### 17 de diciembre
+### 21 de diciembre
 
 - Grupo de la suerte (777) [WO]
 - Grupo 4
@@ -92,10 +92,6 @@ Se lanzará [dadito](https://www.google.com/search?q=Roll%20a%20die&stick=H4sIAA
 - Grupo `null`
 - Grupo solo contra el mundo
 - Grupo solo x2
-
-### 21 de diciembre
-
-TBD
 
 ## Calificación del proyecto
 
@@ -128,7 +124,7 @@ Ejemplo basado en el caso "Club de ajedrez":
 | `Camera` | SI | 1 + 1 | 
 | `Local Notifications` | NO | 0 |
 
-La calificación se detentrá si el proyecto **se cae**.
+La calificación se detendrá si el proyecto **se cae**.
 
 ### Preguntas (4 puntos)
 
