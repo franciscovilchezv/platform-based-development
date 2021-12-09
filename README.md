@@ -293,7 +293,7 @@ Lab content:
 ### Lab 14 (12/10)
 
 <!-- - Students will work in their own groups the Homework 6. -->
-- Students can use the time to work on the Extra Credit 2.
+- Students will use the time to work on the Extra Credit 2.
 - Will review project progress with each group.
 
 #### Material
