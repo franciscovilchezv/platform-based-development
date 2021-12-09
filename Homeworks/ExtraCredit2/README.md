@@ -32,6 +32,8 @@ Se le otorgará *1 punto extra* en cualquiera de las asignaciones realizadas en 
 
 Los Pull Requests serán corregidos en el orden en que son recibidos. Por lo tanto, si usted arregla algún punto, y alguien más se le adelantó con el mismo *fix*, su pull request tendrá que ser rechazado. Sin embargo, puede seguir mandando otros pull requests si desea.
 
+En caso el Pull Request no cumpla con los cambios adecuados, se procederá a indicar en el Pull Request las modificaciones adicionales que debe realizar para que su Pull Request pueda ser aprobado y mergeado.
+
 ## Fecha Límite
 
 Se revisarán los Pull Requests enviados hasta el 21 de diciembre a las 11:59pm
