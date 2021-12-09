@@ -288,12 +288,17 @@ Lab content:
 #### Material
 
 - [Summary](./Lectures/Lecture14/README.md)
-- [Extra Credit](./Homeworks/ExtraCredit1/README.md)
+- [Extra Credit 1](./Homeworks/ExtraCredit1/README.md)
 
 ### Lab 14 (12/10)
 
+- Students can use the time to work on the Extra Credit 2.
 - Students will work in their own groups the Homework 6.
 - Will review project progress with each group.
+
+#### Material
+
+- [Extra Credit 2](./Homeworks/ExtraCredit2/README.md)
 
 <!-- #### Material
 
