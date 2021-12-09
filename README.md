@@ -294,6 +294,7 @@ Lab content:
 
 <!-- - Students will work in their own groups the Homework 6. -->
 - Students will use the time to work on the Extra Credit 2.
+- Will address questions regarding Homework 6.
 - Will review project progress with each group.
 
 #### Material
