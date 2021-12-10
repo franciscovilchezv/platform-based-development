@@ -44,7 +44,7 @@ El link del repositorio del proyecto debe ser subido al canvas. Dicho repositori
   
 Puede encontrar un ejemplo del README en el siguiente [link](./README-ejemplo.md).
 
-*Dicho link debe ser subido a más tardar el 21 de diciembre a las 23:59pm*
+*Dicho link debe ser subido a más tardar el 16 de diciembre a las 23:59pm*
 
 *Si desea, puede utilizar el mismo repositorio que utilizó para el proyecto 1.*
 
@@ -59,11 +59,11 @@ En el canvas del curso, hay una tarea llamada Proyecto 2. En ella deberá poner 
 
 Puede encontrar un ejemplo en el siguiente [link](../Project1/autocalificacion.md).
 
-*La autocalificación grupal debe ser subida a más tardar el 21 de diciembre a las 23:59pm.* De lo contrario, usted no obtendrá nota alguna por el trabajo.
+*La autocalificación grupal debe ser subida a más tardar el 16 de diciembre a las 23:59pm.* De lo contrario, usted no obtendrá nota alguna por el trabajo.
 
 ## Presentación
 
-El equipo (uno o más representantes) presentará el proyecto el día **21 de diciembre**.
+El equipo (uno o más representantes) presentará el proyecto el día **17 de diciembre y 21 de diciembre del 2021**.
 
 La presentación (10 minutos) deberá incluir:
 
@@ -81,7 +81,7 @@ Código de vestimenta: Libre
 
 Se lanzará [dadito](https://www.google.com/search?q=Roll%20a%20die&stick=H4sIAAAAAAAAAOOwfcRoxC3w8sc9YSnNSWtOXmNU5uILyM-pzEhNKUrMcclMThUS5OLMK82NL85MSS0WYpFiEmDjAQAnwJaNNwAAAA), empezando con los grupos con más de 1 integrante.
 
-### 21 de diciembre
+### 17 de diciembre
 
 - Grupo de la suerte (777) [WO]
 - Grupo 4
@@ -92,6 +92,10 @@ Se lanzará [dadito](https://www.google.com/search?q=Roll%20a%20die&stick=H4sIAA
 - Grupo `null`
 - Grupo solo contra el mundo
 - Grupo solo x2
+
+### 21 de diciembre
+
+TBD
 
 ## Calificación del proyecto
 
