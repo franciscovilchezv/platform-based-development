@@ -9,7 +9,7 @@ Creación de una Aplicación Móvil
 Su proyecto debe tener los mismos requisitos del proyecto 1 pero aplicado a Ionic:
 
 - Uso de una base de datos MySQL para guardar información necesaria del proyecto.
-- Desarrolo de una API en NodeJS usando Express framework.
+- Desarrollo de una API en NodeJS usando Express framework.
 - Creación de una Aplicación móvil usando Ionic.
 
 Requisitos específicos:
@@ -20,10 +20,10 @@ Requisitos específicos:
 
 Adicionalmente, debe de cubrir los siguientes requisitos:
 
-- Uso de al menos 2 plugins de Ionic
+- Uso de al menos 2 plugins de Ionic.
 - Deploy de la app en un dispositivo móvil.
 
-*Nota: Si no cuenta con un dispositivo móvil, realizar al menos el uso del plugin de la camara (u otro testeable en browser). Y la calificación del otro plugin se hará a través de preguntas*
+*Nota: Si no cuenta con un dispositivo móvil, realizar al menos el uso del plugin de la cámara (u otro testeable en browser). Y la calificación del otro plugin se hará a través de preguntas*
 
 ## Entregables
 
@@ -50,7 +50,7 @@ Puede encontrar un ejemplo del README en el siguiente [link](./README-ejemplo.md
 
 ### Autocalificación grupal
 
-En el canvas del curso, hay una tarea llamada Proyecto 2. En ella deberá poner la lista de todos los integrates y un valor del 0-10 indicando qué tan comprometido estuvo con el proyecto. 
+En el canvas del curso, hay una tarea llamada Proyecto 2. En ella deberá poner la lista de todos los integrantes y un valor del 0-10 indicando qué tan comprometido estuvo con el proyecto. 
 
 - 0: nada comprometido
 - 10: totalmente comprometido
@@ -63,7 +63,7 @@ Puede encontrar un ejemplo en el siguiente [link](../Project1/autocalificacion.m
 
 ## Presentación
 
-El equipo (uno o más representantes) presentará el proyecto el día **16 de diciembre y el 21 de diciembre del 2021**.
+El equipo (uno o más representantes) presentará el proyecto el día **17 de diciembre y 21 de diciembre del 2021**.
 
 La presentación (10 minutos) deberá incluir:
 
@@ -73,7 +73,7 @@ La presentación (10 minutos) deberá incluir:
 - DEMO del proyecto (4 minutos)
 - Preguntas al grupo (3 minutos)
 
-Se le sugiere a los integrantes del grupo mostrar su cámara durante la presentación **sólo si es que es posible**.
+Se le sugiere a los integrantes del grupo mostrar su cámara durante la presentación **solo si es que es posible**.
 
 Código de vestimenta: Libre
 
@@ -128,7 +128,7 @@ Ejemplo basado en el caso "Club de ajedrez":
 | `Camera` | SI | 1 + 1 | 
 | `Local Notifications` | NO | 0 |
 
-La calificación se detentrá si el proyecto **se cae**.
+La calificación se detendrá si el proyecto **se cae**.
 
 ### Preguntas (4 puntos)
 
