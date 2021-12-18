@@ -61,7 +61,7 @@ VALUES (1, 'iPhone 13', 1000, 699.99);
 
 #### NULL Values
 
-If you don't want to insert a value, you can use the keywork `NULL`
+If you don't want to insert a value, you can use the keyword `NULL`
 
 ```
 INSERT INTO product (product_id, product_name, stock, price)
@@ -79,7 +79,7 @@ FROM    product;
 
 #### Where clause
 
-You can also filter values useing a [where clause](https://www.w3schools.com/sql/sql_where.asp)
+You can also filter values using a [where clause](https://www.w3schools.com/sql/sql_where.asp)
 
 ```
 SELECT  product_id, product_name, stock, price
@@ -144,7 +144,7 @@ DROP TABLE product;
 
 ## Constraining data
 
-Adding contrains allows us to restrict the data that we are using and reference its value in a different table, which is called *joining tables*.
+Adding constraints allows us to restrict the data that we are using and reference its value in a different table, which is called *joining tables*.
 
 ### Not null values
 
