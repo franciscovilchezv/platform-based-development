@@ -2,7 +2,7 @@
 
 ## IDE
 
-During the course, we will use [VSCode](https://code.visualstudio.com/) for giving the examples. Other options are available which you can use under your own responsability.
+During the course, we will use [VSCode](https://code.visualstudio.com/) for giving the examples. Other options are available which you can use under your own responsibility.
 
 - [Sublime Text 4](https://www.sublimetext.com/)
 - [WebStorm](https://www.jetbrains.com/webstorm/)
