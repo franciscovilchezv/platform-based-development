@@ -9,11 +9,11 @@ There are two (for now) type of files:
 
 ## File Hierarchy
 
-It's important to learn how are the diretories (folders) structured in your computer.
+It's important to learn how are the directories (folders) structured in your computer.
 
 ![](https://docs.oracle.com/cd/E19253-01/806-7612/images/Files.fig154.epsi.gif)
 
-The initial folder that includes all other directories in your computer is called root, and its represented by a slash (/).
+The initial folder that includes all other directories in your computer is called root, and it's represented by a slash (/).
 
 If you want to reference a folder while using a command, you need to specify the full path you will need to travel to get there from the root.
 
@@ -38,7 +38,7 @@ Go to '/', then to 'export/' and then to 'home/'.
 - `.` and `..`: Current and previous directory
 - `~`: Reference to your HOME directory
 
-**WARNING: `rm` PERMANENTLY DELETES! You CANNOT recover anything when you use `rm`. I recommend to `mkdir OLD` to make a trash directory OLD and `mv` older/uneeded files/directories there. You can always delete them later.**
+**WARNING: `rm` PERMANENTLY DELETES! You CANNOT recover anything when you use `rm`. I recommend to `mkdir OLD` to make a trash directory OLD and `mv` older/unneeded files/directories there. You can always delete them later.**
 
 - `rm`: Delete
 - `rm -r`: Delete recursively (used for deleting directories)
