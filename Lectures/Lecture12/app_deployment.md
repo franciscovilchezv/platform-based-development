@@ -44,6 +44,8 @@ You can read the following [link](https://github.com/franciscovilchezv/coding-in
 
 ## Android
 
+*If you are working on windows, you need to do the following steps using a native terminal, e.g. GitBash, CMD, PowerShell, etc... i.e. Ubuntu WSL will not work*
+
 You may have to install [the following dependency](https://stackoverflow.com/a/65372165/4962221) before anything.
 
 Additionally, you may need to update your Android Studio SDKs.
