@@ -1,6 +1,6 @@
 # Homework 1 (5 puntos)
 
-- Crear una cuenta [Github](github.com) usando su correo institucional. Si ya tiene una cuenta Github con otro correo, [agregarle su correo institucional](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/adding-an-email-address-to-your-github-account)
+- Crear una cuenta [Github](https://www.github.com) usando su correo institucional. Si ya tiene una cuenta Github con otro correo, [agregarle su correo institucional](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/adding-an-email-address-to-your-github-account)
 
 - Agregar un README.md a tu perfil como lo indica la [siguiente guía](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) usando el [lenguaje de marcado detallado por Github! (~Markdown)](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
