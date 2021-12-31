@@ -363,7 +363,7 @@ Let's change the edit and delete button for some [icons](https://icons.getbootst
     <tbody>
       <tr *ngFor="let item of members">
         <td><a [routerLink]="['/members/view/', item.member_id]">{{item.fullname}}</a></td>
-        <td>{{item.birthday | date}}</td>
+        <td>{{item.birthday}}</td>
         <td>{{item.ranking}}</td>
         <td>{{item.gender}}</td>
         <td>{{item.email}}</td>
