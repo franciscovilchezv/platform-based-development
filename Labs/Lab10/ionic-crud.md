@@ -1,3 +1,5 @@
+<!-- {% raw %} -->
+
 # Ionic CRUD
 
 Let's create the same functionalities we have in the Angular project:
@@ -72,8 +74,8 @@ Finally, the only thing that will change is the way we show the data.
           <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Fidelogo.svg/1920px-Fidelogo.svg.png"/>
           <p>Rating: {{member.ranking}}</p>
           <p>Email: {{member.email}}</p>
-          <p>Birthday: {{member.birthday}}</p>
-          <p>Member since: {{member.created_date}}</p>
+          <p>Birthday: {{member.birthday | date}}</p>
+          <p>Member since: {{member.created_date | date}}</p>
         </div>
       </ion-col>
     </ion-row>
@@ -304,3 +306,5 @@ ionic generate page members/members-delete
   </ion-grid>
 </ion-content>
 ```
+
+<!-- {% endraw %} -->
