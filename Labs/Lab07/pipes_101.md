@@ -8,7 +8,7 @@ One pipe that we can use is the [Date](https://angular.io/api/common/DatePipe) p
 <!-- {% raw %} -->
 ```
 ...
-    <td>{{item.birthday \| date}}</td>
+    <td>{{item.birthday | date}}</td>
 ...
 ```
 <!-- {% endraw %} -->
