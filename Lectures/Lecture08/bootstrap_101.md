@@ -1,3 +1,5 @@
+<!-- {% raw %} -->
+
 # Bootstrap 101
 
 [Bootstrap](https://getbootstrap.com/) is known as a CSS framework. It gives you a set of CSS classes and components that you can use in your web application so you don't spend too much time into the details of styling your app.
@@ -342,7 +344,6 @@ Let's also make our [table](https://getbootstrap.com/docs/5.1/content/tables/) a
 
 Let's change the edit and delete button for some [icons](https://icons.getbootstrap.com/). We will end up with an HTML like this:
 
-<% raw %>
 ```html
 <div class="container">
   <h1>Chess members</h1>
@@ -379,7 +380,6 @@ Let's change the edit and delete button for some [icons](https://icons.getbootst
   </table>
 </div>
 ```
-<% endraw %>
 
 ## `member-delete.component.*`
 
@@ -397,3 +397,5 @@ We will do the delete member as a hero also.
   </div>
 </div>
 ```
+
+<!-- {% endraw %} -->
