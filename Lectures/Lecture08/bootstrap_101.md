@@ -342,6 +342,7 @@ Let's also make our [table](https://getbootstrap.com/docs/5.1/content/tables/) a
 
 Let's change the edit and delete button for some [icons](https://icons.getbootstrap.com/). We will end up with an HTML like this:
 
+<% raw %>
 ```html
 <div class="container">
   <h1>Chess members</h1>
@@ -363,7 +364,7 @@ Let's change the edit and delete button for some [icons](https://icons.getbootst
     <tbody>
       <tr *ngFor="let item of members">
         <td><a [routerLink]="['/members/view/', item.member_id]">{{item.fullname}}</a></td>
-        <td>{{item.birthday}}</td>
+        <td>{{item.birthday | date}}</td>
         <td>{{item.ranking}}</td>
         <td>{{item.gender}}</td>
         <td>{{item.email}}</td>
@@ -378,6 +379,7 @@ Let's change the edit and delete button for some [icons](https://icons.getbootst
   </table>
 </div>
 ```
+<% endraw %>
 
 ## `member-delete.component.*`
 
