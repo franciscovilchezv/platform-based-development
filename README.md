@@ -1,24 +1,23 @@
 # Platform Based Development
+
 Material for Platform Based Development
 
-## Agenda
+## Lab 0 (3/9)
 
-### Lab 0 (3/9)
-
-#### Content
+### Content
 
 - About me
 - Student's Introduction
 - Course introduction and motivation
 - Basic programming tools (OS, IDE vs. Text Editor, terminal)
 
-#### Material
+### Material
 
 - [Slides](./Lectures/Lecture00/Lecture0.pdf)
 
-### Lecture 1 (7/9)
+## Lecture 1 (7/9)
 
-#### Content
+### Content
 
 - Client - Server Model
 - Web Pages vs. Web Applications
@@ -38,11 +37,11 @@ Material for Platform Based Development
   - API (More on Lecture 6)
 - Backend frameworks
 
-#### Material
+### Material
 
 - [Slides](./Lectures/Lecture01/Lecture1.pdf)
 
-### Lab 1 (10/9)
+## Lab 1 (10/9)
 
 The following topics will be explained in Windows and MacOS
 
@@ -54,12 +53,12 @@ The following topics will be explained in Windows and MacOS
 - Installation of nvm + node
 - Installation of MySQL + Workbench
 
-#### Material
+### Material
 
 - [Homework 1](./Homeworks/Homework1/README.md)
 - [Guide](./Labs/Lab01)
 
-### Lecture 2 (14/9)
+## Lecture 2 (14/9)
 
 - Databases
   - Motivation
@@ -77,38 +76,38 @@ The following topics will be explained in Windows and MacOS
       - User Datagram Protocol (UDP)
       - Transmission Control Protocol (TCP)
 
-#### Material
+### Material
 
 - [Slides](./Lectures/Lecture02/Lecture2.pdf)
 
-### Lab 2 (17/9)
+## Lab 2 (17/9)
 
 - Web 101
 - Databases (CREATE DATABASE, TABLE, INSERT, UPDATE, DELETE)
 - Git started (pending push, + gh usage)
 
-#### Material
+### Material
 
 - [Homework 2 - Parte 1](./Homeworks/Homework2/hw2-part1.md)
 - [Guide](./Labs/Lab02)
 
-### Lecture 3 (21/9)
+## Lecture 3 (21/9)
 
 Continuation of Lab 2:
 
 - Databases (Review preview's lab commands, and explain ALTER TABLE & CONTRAINTS)
 - Git (gh)
 
-#### Material
+### Material
 
 - [Guide](./Lectures/Lecture03/README.md)
 - [Homework 2 - Parte 2](./Homeworks/Homework2/hw2-part2.md)
 
-### Lab 3
+## Lab 3
 
 - [PC1](./Quizzes/PC1/README.md)
 
-### Lecture 4
+## Lecture 4
 
 - Backend + Databases
 - HTTP
@@ -116,21 +115,21 @@ Continuation of Lab 2:
 - Full picture
 - NodeJS, Express
 
-#### Material
+### Material
 
 - [Slides](./Lectures/Lecture04/Lecture4.pdf)
 
-### Lab 4
+## Lab 4
 
 - Accessing DB from NodeJS
 - Creation of an API with NodeJS
 
-#### Material
+### Material
 
 - [Homework 3 - Parte 1](./Homeworks/Homework3)
 - [Guide](./Labs/Lab04)
 
-### Lecture 5
+## Lecture 5
 
 - Review technologies in stack (Angular, Typescript & Bootstrap)
 
@@ -140,17 +139,17 @@ Continuation of Lab 4:
 New theory topic:
 - Introduction to Angular routes
 
-#### Material
+### Material
 
 - [Homework 3 - Parte 2](./Homeworks/Homework3)
 - [Guide](./Lectures/Lecture05)
 - [Slides](./Lectures/Lecture05/Lecture5.pdf)
 
-### Lab 5
+## Lab 5
 
 Holiday: Que viva [Miguel Grau](https://en.wikipedia.org/wiki/Battle_of_Angamos).
 
-### Lecture 6
+## Lecture 6
 
 New theory topic:
 - HTTP methods
@@ -158,47 +157,47 @@ New theory topic:
 Lab content:
 - CRUD NodeJS
 
-#### Material
+### Material
 
 - [Guide](./Labs/Lab05)
 - [Slides](./Lectures/Lecture05/Lecture5.pdf)
 
-### Lab 6
+## Lab 6
 
 - CRUD Angular
 
-#### Material
+### Material
 
 - [Guide](./Labs/Lab05)
 - Homework: Work on your project
 
-### Lecture 7
+## Lecture 7
 - Review projects with each group
 
-### Lab 7
+## Lab 7
 - SQL Queries (Joins)
 - Authentication with roles
 - Angular Pipes
 
-#### Material
+### Material
 
 - [Guide](./Labs/Lab07)
 - Homework: Work on your project
 
-### Lecture 8
+## Lecture 8
 
 Lab content:
 
 - Framework CSS
 
-#### Material
+### Material
 
 - [Guide](./Lectures/Lecture08)
 
-### Lab 8
+## Lab 8
 - Office Hours
 
-### Lecture 9
+## Lecture 9
 
 - Cross-platform development
   - Native Apps
@@ -213,111 +212,111 @@ Lab content:
 
 - Details about Web Project Presentation
 
-#### Material
+### Material
 
 - [Slides](./Lectures/Lecture09/Lecture9.pdf)
 
-### Lab 9
+## Lab 9
 - Presentación Proyecto - Parte Web
 
-### Lecture 10
+## Lecture 10
 - Presentación Proyecto - Parte Web
 
-### Lab 10
+## Lab 10
 - Ionic Installation
 - Ionic + Backend
 
-#### Material
+### Material
 
 - [Guide](./Labs/Lab10/)
 
-### Lecture 11
+## Lecture 11
 - Ionic CRUD con't
 
-#### Material
+### Material
 
 - [Guide](./Lectures/Lecture11/)
 
-### Lab 11
+## Lab 11
 - Ionic CRUD con't (finalized)
 
-#### Material
+### Material
 
 <!-- ETA: 11/26 -->
 - [Homework 4](./Homeworks/Homework4/README.md) (grade will be used for PC2).
 - [Guide](./Labs/Lab11/)
 
-### Lecture 12 (11/23)
+## Lecture 12 (11/23)
 
 - Ionic App Deployment
 
-#### Material
+### Material
 
 - [Guide](./Lectures/Lecture12/)
 
-### Lab 12 (11/26)
+## Lab 12 (11/26)
 
 - Introduction to Ionic Plugins 
 - Camera plugin
 
-#### Material
+### Material
 
 <!-- ETA: 12/2 -->
 - [Guide](./Labs/Lab12/)
 
-### Lecture 13 (11/30)
+## Lecture 13 (11/30)
 
 - Project 2 details
 - Explained HW5
 - Explained ExtraCredit1
 
-#### Material
+### Material
 - [Guide](./Lectures/Lecture13/)
 - [Homework 5](./Homeworks/Homework5/README.md)
 - [Project 2 requirements](./Project/Project2/README.md)
 
-### Lab 13 (12/3)
+## Lab 13 (12/3)
 
 - Testing Camera plugin in a mobile device
 - New plugin: Local Notifications
 - Refactoring
 - In class work: Homework 6 (Ionic Plugins)
 
-#### Material
+### Material
 <!-- ETA: 12/6 -->
 - [Homework 6](./Homeworks/Homework6/README.md)
 
 
-### Lecture 14 (12/7)
+## Lecture 14 (12/7)
 
 - Guest Lecture: [Raul Ramirez](https://www.linkedin.com/in/raul-ramirez-a6b4a147/), Founder of [Llamafood](https://llamafood.com/).
 
-#### Material
+### Material
 
 - [Summary](./Lectures/Lecture14/README.md)
 - [Extra Credit 1](./Homeworks/ExtraCredit1/README.md)
 
-### Lab 14 (12/10)
+## Lab 14 (12/10)
 
 <!-- - Students will work in their own groups the Homework 6. -->
 - Students will use the time to work on the Extra Credit 2.
 - Will address questions regarding Homework 6.
 - Will review project progress with each group.
 
-#### Material
+### Material
 
 - [Extra Credit 2](./Homeworks/ExtraCredit2/README.md)
 
-<!-- #### Material
+<!-- ### Material
 
 - [Homework 7](./Homeworks/Homework7/README.md) -->
 
-### Lecture 15 (12/14)
+## Lecture 15 (12/14)
 
 - Office Hours
   
-### Lab 15 (12/17)
+## Lab 15 (12/17)
 - Presentación Proyecto - Parte móvil
 
-### Lecture 16 (12/21)
+## Lecture 16 (12/21)
 - Chit chat (general feedbacks)
