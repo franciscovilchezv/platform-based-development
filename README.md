@@ -199,6 +199,7 @@ Lab content:
 - Office Hours
 
 ### Lecture 9
+
 - Cross-platform development
   - Native Apps
   - Mobile Web
@@ -256,8 +257,8 @@ Lab content:
 
 ### Lab 12 (11/26)
 
-- Ionic Plugins 
-  - Camera
+- Introduction to Ionic Plugins 
+- Camera plugin
 
 #### Material
 
@@ -319,4 +320,4 @@ Lab content:
 - Presentación Proyecto - Parte móvil
 
 ### Lecture 16 (12/21)
-- Presentación Proyecto - Parte móvil
+- Chit chat (general feedbacks)
