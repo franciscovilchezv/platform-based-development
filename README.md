@@ -5,10 +5,16 @@ Material for Platform Based Development
 
 ### Lab 0 (3/9)
 
+#### Content
+
 - About me
 - Student's Introduction
 - Course introduction and motivation
 - Basic programming tools (OS, IDE vs. Text Editor, terminal)
+
+#### Material
+
+- [Slides](./Lectures/Lecture00/Lecture0.pdf)
 
 ### Lecture 1 (7/9)
 
