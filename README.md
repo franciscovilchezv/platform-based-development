@@ -4,20 +4,20 @@ Material for Platform Based Development
 
 ## Lab 0 (3/9)
 
-### Content
+#### Content
 
 - About me
 - Student's Introduction
 - Course introduction and motivation
 - Basic programming tools (OS, IDE vs. Text Editor, terminal)
 
-### Material
+#### Material
 
 - [Slides](./Lectures/Lecture00/Lecture0.pdf)
 
 ## Lecture 1 (7/9)
 
-### Content
+#### Content
 
 - Client - Server Model
 - Web Pages vs. Web Applications
@@ -37,7 +37,7 @@ Material for Platform Based Development
   - API (More on Lecture 6)
 - Backend frameworks
 
-### Material
+#### Material
 
 - [Slides](./Lectures/Lecture01/Lecture1.pdf)
 
@@ -53,7 +53,7 @@ The following topics will be explained in Windows and MacOS
 - Installation of nvm + node
 - Installation of MySQL + Workbench
 
-### Material
+#### Material
 
 - [Homework 1](./Homeworks/Homework1/README.md)
 - [Guide](./Labs/Lab01)
@@ -76,7 +76,7 @@ The following topics will be explained in Windows and MacOS
       - User Datagram Protocol (UDP)
       - Transmission Control Protocol (TCP)
 
-### Material
+#### Material
 
 - [Slides](./Lectures/Lecture02/Lecture2.pdf)
 
@@ -86,7 +86,7 @@ The following topics will be explained in Windows and MacOS
 - Databases (CREATE DATABASE, TABLE, INSERT, UPDATE, DELETE)
 - Git started (pending push, + gh usage)
 
-### Material
+#### Material
 
 - [Homework 2 - Parte 1](./Homeworks/Homework2/hw2-part1.md)
 - [Guide](./Labs/Lab02)
@@ -98,7 +98,7 @@ Continuation of Lab 2:
 - Databases (Review preview's lab commands, and explain ALTER TABLE & CONTRAINTS)
 - Git (gh)
 
-### Material
+#### Material
 
 - [Guide](./Lectures/Lecture03/README.md)
 - [Homework 2 - Parte 2](./Homeworks/Homework2/hw2-part2.md)
@@ -115,7 +115,7 @@ Continuation of Lab 2:
 - Full picture
 - NodeJS, Express
 
-### Material
+#### Material
 
 - [Slides](./Lectures/Lecture04/Lecture4.pdf)
 
@@ -124,7 +124,7 @@ Continuation of Lab 2:
 - Accessing DB from NodeJS
 - Creation of an API with NodeJS
 
-### Material
+#### Material
 
 - [Homework 3 - Parte 1](./Homeworks/Homework3)
 - [Guide](./Labs/Lab04)
@@ -139,7 +139,7 @@ Continuation of Lab 4:
 New theory topic:
 - Introduction to Angular routes
 
-### Material
+#### Material
 
 - [Homework 3 - Parte 2](./Homeworks/Homework3)
 - [Guide](./Lectures/Lecture05)
@@ -157,7 +157,7 @@ New theory topic:
 Lab content:
 - CRUD NodeJS
 
-### Material
+#### Material
 
 - [Guide](./Labs/Lab05)
 - [Slides](./Lectures/Lecture05/Lecture5.pdf)
@@ -166,7 +166,7 @@ Lab content:
 
 - CRUD Angular
 
-### Material
+#### Material
 
 - [Guide](./Labs/Lab05)
 - Homework: Work on your project
@@ -179,7 +179,7 @@ Lab content:
 - Authentication with roles
 - Angular Pipes
 
-### Material
+#### Material
 
 - [Guide](./Labs/Lab07)
 - Homework: Work on your project
@@ -190,7 +190,7 @@ Lab content:
 
 - Framework CSS
 
-### Material
+#### Material
 
 - [Guide](./Lectures/Lecture08)
 
@@ -212,7 +212,7 @@ Lab content:
 
 - Details about Web Project Presentation
 
-### Material
+#### Material
 
 - [Slides](./Lectures/Lecture09/Lecture9.pdf)
 
@@ -226,21 +226,21 @@ Lab content:
 - Ionic Installation
 - Ionic + Backend
 
-### Material
+#### Material
 
 - [Guide](./Labs/Lab10/)
 
 ## Lecture 11
 - Ionic CRUD con't
 
-### Material
+#### Material
 
 - [Guide](./Lectures/Lecture11/)
 
 ## Lab 11
 - Ionic CRUD con't (finalized)
 
-### Material
+#### Material
 
 <!-- ETA: 11/26 -->
 - [Homework 4](./Homeworks/Homework4/README.md) (grade will be used for PC2).
@@ -250,7 +250,7 @@ Lab content:
 
 - Ionic App Deployment
 
-### Material
+#### Material
 
 - [Guide](./Lectures/Lecture12/)
 
@@ -259,7 +259,7 @@ Lab content:
 - Introduction to Ionic Plugins 
 - Camera plugin
 
-### Material
+#### Material
 
 <!-- ETA: 12/2 -->
 - [Guide](./Labs/Lab12/)
@@ -270,7 +270,7 @@ Lab content:
 - Explained HW5
 - Explained ExtraCredit1
 
-### Material
+#### Material
 - [Guide](./Lectures/Lecture13/)
 - [Homework 5](./Homeworks/Homework5/README.md)
 - [Project 2 requirements](./Project/Project2/README.md)
@@ -282,7 +282,7 @@ Lab content:
 - Refactoring
 - In class work: Homework 6 (Ionic Plugins)
 
-### Material
+#### Material
 <!-- ETA: 12/6 -->
 - [Homework 6](./Homeworks/Homework6/README.md)
 
@@ -291,7 +291,7 @@ Lab content:
 
 - Guest Lecture: [Raul Ramirez](https://www.linkedin.com/in/raul-ramirez-a6b4a147/), Founder of [Llamafood](https://llamafood.com/).
 
-### Material
+#### Material
 
 - [Summary](./Lectures/Lecture14/README.md)
 - [Extra Credit 1](./Homeworks/ExtraCredit1/README.md)
@@ -303,11 +303,11 @@ Lab content:
 - Will address questions regarding Homework 6.
 - Will review project progress with each group.
 
-### Material
+#### Material
 
 - [Extra Credit 2](./Homeworks/ExtraCredit2/README.md)
 
-<!-- ### Material
+<!-- #### Material
 
 - [Homework 7](./Homeworks/Homework7/README.md) -->
 
