@@ -1,3 +1,5 @@
+<!-- {% raw %} -->
+
 # Bootstrap 101
 
 [Bootstrap](https://getbootstrap.com/) is known as a CSS framework. It gives you a set of CSS classes and components that you can use in your web application so you don't spend too much time into the details of styling your app.
@@ -395,3 +397,5 @@ We will do the delete member as a hero also.
   </div>
 </div>
 ```
+
+<!-- {% endraw %} -->

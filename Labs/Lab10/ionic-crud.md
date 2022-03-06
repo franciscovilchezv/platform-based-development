@@ -1,3 +1,5 @@
+<!-- {% raw %} -->
+
 # Ionic CRUD
 
 Let's create the same functionalities we have in the Angular project:
@@ -304,3 +306,5 @@ ionic generate page members/members-delete
   </ion-grid>
 </ion-content>
 ```
+
+<!-- {% endraw %} -->

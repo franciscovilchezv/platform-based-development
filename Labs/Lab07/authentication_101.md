@@ -1,3 +1,5 @@
+<!-- {% raw %} -->
+
 # Authentication 101
 
 In this guide, we will explain the basic flow in which we authenticate a use in Angular and store their session in the app.
@@ -536,3 +538,4 @@ export class AuthService {
 }
 ```
 
+<!-- {% endraw %} -->

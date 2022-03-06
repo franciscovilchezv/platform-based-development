@@ -5,10 +5,16 @@ Material for Platform Based Development
 
 ### Lab 0 (3/9)
 
+#### Content
+
 - About me
 - Student's Introduction
 - Course introduction and motivation
 - Basic programming tools (OS, IDE vs. Text Editor, terminal)
+
+#### Material
+
+- [Slides](./Lectures/Lecture00/Lecture0.pdf)
 
 ### Lecture 1 (7/9)
 
@@ -193,6 +199,7 @@ Lab content:
 - Office Hours
 
 ### Lecture 9
+
 - Cross-platform development
   - Native Apps
   - Mobile Web
@@ -250,8 +257,8 @@ Lab content:
 
 ### Lab 12 (11/26)
 
-- Ionic Plugins 
-  - Camera
+- Introduction to Ionic Plugins 
+- Camera plugin
 
 #### Material
 
@@ -313,4 +320,4 @@ Lab content:
 - Presentación Proyecto - Parte móvil
 
 ### Lecture 16 (12/21)
-- Presentación Proyecto - Parte móvil
+- Chit chat (general feedbacks)
