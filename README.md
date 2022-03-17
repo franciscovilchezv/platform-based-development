@@ -245,8 +245,8 @@ Lab content:
 #### Material
 
 <!-- ETA: 11/26 -->
-- [Homework 4](./Homeworks/Homework4/README.md) (grade will be used for PC2).
 - [Guide](./Labs/Lab11/)
+- [Homework 4](./Homeworks/Homework4/README.md) (grade will be used for PC2).
 
 ## Lecture 12 (11/23)
 
