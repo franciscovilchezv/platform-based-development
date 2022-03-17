@@ -88,8 +88,8 @@ The following topics will be explained in Windows and MacOS
 
 #### Material
 
-- [Homework 2 - Parte 1](./Homeworks/Homework2/hw2-part1.md)
 - [Guide](./Labs/Lab02)
+- [Homework 2 - Parte 1](./Homeworks/Homework2/hw2-part1.md)
 
 ## Lecture 3 (21/9)
 
