@@ -321,4 +321,4 @@ Lab content:
 - Presentación Proyecto - Parte móvil
 
 ## Lecture 16 (12/21)
-- Chit chat (general feedbacks)
+- Chit-chat (general feedbacks)
