@@ -161,8 +161,8 @@ Lab content:
 
 #### Material
 
-- [Guide](./Labs/Lab05)
 - [Slides](./Lectures/Lecture05/Lecture5.pdf)
+- [Guide](./Labs/Lab05)
 
 ## Lab 6
 
@@ -170,7 +170,7 @@ Lab content:
 
 #### Material
 
-- [Guide](./Labs/Lab05)
+- [Guide](./Labs/Lab06)
 - Homework: Work on your project
 
 ## Lecture 7
