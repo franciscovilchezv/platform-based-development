@@ -1,29 +1,3 @@
 # Lab 2
 
-## Git
-
-`git` will allow us to connect to a repository, which is a virtual location where we will store code. You can think of it as a Google Drive with many many more features for developers.
-
-Git is included by default with the Linux WSL.
-
-Learn the basics: [Git 101](./git_101.md)
-
-## Web
-
-Learn the basics: [Web 101](./web_101.md)
-
-## MySQL
-
-```
-sudo apt update
-sudo apt install mysql-server
-```
-
-### Update: install Mysql > 11 November (maybe some things in configuration may change)
-
-```
-sudo apt update
-sudo apt install default-mysql-server
-```
-
-[Configure the user](./mysql_setup.md) for your MySQL Server
+In this lab, we will learn the basics of [Git](./git_101.md). After that, we will create some [Web content](./web_101.md). Finally, we will install and learn about a database called [MySQL](./mysql_101.md).
