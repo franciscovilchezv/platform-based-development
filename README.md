@@ -126,8 +126,8 @@ Continuation of Lab 2:
 
 #### Material
 
-- [Homework 3 - Parte 1](./Homeworks/Homework3)
 - [Guide](./Labs/Lab04)
+- [Homework 3 - Parte 1](./Homeworks/Homework3)
 
 ## Lecture 5
 
