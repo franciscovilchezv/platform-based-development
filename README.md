@@ -141,9 +141,11 @@ New theory topic:
 
 #### Material
 
-- [Homework 3 - Parte 2](./Homeworks/Homework3)
-- [Guide](./Lectures/Lecture05)
 - [Slides](./Lectures/Lecture05/Lecture5.pdf)
+- [Guide](./Lectures/Lecture05)
+- [Homework 3 - Parte 2](./Homeworks/Homework3)
+
+
 
 ## Lab 5
 
