@@ -2,7 +2,7 @@
 
 **Trabajar esta tarea en un repositorio distinto al que utilizó para la PC2. Puede reutilizar el proyecto. Solo inclúyalo en un nuevo repositorio para no interrumpir la calificación de la PC2**
 
-Misión: Utilizar la cámara del dispositivo para que el usuario pueda tomar una foto a su pokemón al momento de agregar un nuevo pokemón en su proyecto realizado en la [HW6](../Homework6/README.md).
+Misión: Utilizar la cámara del dispositivo para que el usuario pueda tomar una foto a su pokemón al momento de agregar un nuevo pokemón en su proyecto realizado en la [HW4](../Homework4/README.md).
 
 *PD: En caso no haya desarrollado la tarea 4, le bastará con tener una vista para listar pokemones, crear pokemones y ver un pokemón*
 
