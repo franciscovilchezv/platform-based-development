@@ -8,7 +8,7 @@ Misión: Utilizar la cámara del dispositivo para que el usuario pueda tomar una
 
 ## Requisitos específicos
 
-- Al momento de crear un pokemón, deberá haber un botón al lado del input donde se insertaba la URL de la imágen con la imagen de una [cámara](https://ionic.io/ionicons).
+- Al momento de crear un pokemón, deberá haber un ícono de una [cámara](https://ionic.io/ionicons) al lado del input donde se insertaba la URL de la imágen del pokemon .
 
 - Al presionar dicho botón, se abrirá la cámara del dispositivo. Al tomar la foto, la imagen se guardará en el servidor. Dicha imagen será utilizada como imagen del pokemon.
 
